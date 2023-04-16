@@ -1,0 +1,86 @@
+{
+  "BlueArchive_Aris:SaibaMidoriEvent": {
+    "NAME": "Game Development Department!",
+    "DESCRIPTIONS": [
+      "When you open the door of the Millennium Game Development Department and enter, Midori, the younger sister of Saiba's twin sisters, is there. NL \"Can you help me develop a game? How about drawing a picture?\" NL If you want, you can help her with her illustrator work.",
+      "\"Grab this pen and draw freely.\" NL You hold the pen in your hand.",
+      "\"This is enough. It's just an illustration for now, but it'll be a good game if it's refined a bit more.\" NL You get the still unfinished card and go on your way. Can it be completed someday?",
+      "\"Hmm. Is this the empty beauty?\" NL Looks don't matter if it's a really great game. NL ~MAYBE?~",
+      "\"These ~beautiful~ ~lines...~ I'm impressed!\" NL Receive a card featuring your masterpiece. NL When it's done, it'll be a really great game.",
+      "Say you don't have a talent for drawing and go on your way.",
+      "\"Oh, are you taking that game? The last #gMillennium #gPrice was great.\" NL I'm going to take the winner of the last contest made by the game development department. NL Would this help?"
+    ],
+    "OPTIONS": [
+      "[Draw a Picture] #gObtain #ga #gspecial #gcard.",
+      "[Leave]",
+      "Draw your own card images!",
+      "[Take a Game] Get a card made in the past."
+    ]
+  },
+  "BlueArchive_Aris:SaibaMomoiEvent": {
+  "NAME": "Day of Game Development Department.",
+  "DESCRIPTIONS": [
+    "When you open the door of the Millennium Game Development Department and enter, Momoi, the older sister of the Saiba twins, is there. NL \"I just needed someone to play with! please sit down!\" NL Hands over the controller of the fighting game. NL There must be work to be done, right?",
+    "\"what? bet? I won't lose!\" NL You played a fighting game with Momoi, and finally defeated Momoi.. NL \"Huh, I lost? How regrettable!\" NL Having won the bet, you took your gold and got plenty of rest while playing. NL \"I'll win next time!\"",
+    "\"what? bet? I won't lose!\" NL You play a fighting game with Momoi, but you give Momoi the final round due to a ridiculous mistake. NL \"I win! hehe.\" NL Even though you lost money on bets, you took a well-deserved break from playing. NL \"Come next time!\"",
+    "\"Not bad. Well done, right?\" NL You enjoyed the game whether you won or lost. NL After a fun game with Momoi, say goodbye and leave the Game Development Department behind.",
+    "Did you finish writing the story? NL @\"Gyaaaahhhh!!!\"@ NL Momoi's screams spread throughout the room. NL \nThe completion of the game requires planning by scenario writer Momoi.",
+    "\"How about this? it's my masterpiece!\" NL Receive a game scenario from Momoi. Take this?",
+    "\"Then how about this! Would you like this?\" NL Receive a game scenario from Momoi. Take this?",
+    "\"You're picky! ok this time it's this one!\" NL Receive a game scenario from Momoi. Take this?",
+    "\"Great! Now that you've decided on the scenario, let's play the game!\" NL You reluctantly fit into the game together. NL The game development has progressed quite a bit with this."
+  ],
+  "OPTIONS": [
+    "[Make a Bet] #y",
+    " #yGold: #gHeal #g",
+    " #gHP. #g60%: #gGain #g",
+    " #gGold.",
+    "[Enjoy the game] #gHeal #g",
+    " #gHP.",
+    "[Pressure] Improve #gMillennium #gQuest.",
+    "[Check the Card]",
+    "[Refuse] #y",
+    " #yGold: Change to a new card effect.",
+    "[Approve] Lock the #gMillennium #gQuest to this effect.",
+    "[Leave]",
+    "[Locked] Requires: ",
+    " Gold.",
+    "[Locked] Requires: Uncompleted Millennium Quest."
+  ]
+  },
+  "BlueArchive_Aris:CaveofClassChangeEvent": {
+    "NAME": "Cave of Class Change",
+    "DESCRIPTIONS": [
+      "Upon entering the cave, a voice echoes from the depths of the cave.. NL \" ~This~ ~is~ ~the~ ~cave~ ~of~ ~class~ ~change,~ ~choose~ ~the~ ~job~ ~you~ ~want~ \"",
+      "With a new job, you leave the cave..",
+      "You are satisfied with your current job and leave the cave."
+    ],
+    "OPTIONS": [
+      "[Warrior] Remove #rALL #rEquipment #rcards. Gain #gMask #gof #gWarrior.",
+      "[Rouge] Remove #rALL #rEquipment #rcards. Gain #gRogue's #gDagger.",
+      "[Idol] Remove #rALL #rEquipment #rcards. Gain #gIdol's #gRibbon.",
+      "[Wizard] Remove #rALL #rEquipment #rcards. Gain #gWizard #gHat.",
+      "[Leave]"
+    ]
+  },
+  "BlueArchive_Aris:HanaokaYuzuEvent": {
+    "NAME": "Millennium Price",
+    "DESCRIPTIONS": [
+      "When you open the door of the Millennium Game Development Department and enter, there is Yuzu Hanaoka, the general manager of the Game Development Department. NL \" #yMillennium #yPrice starts soon! Are you ready?\" NL Tune your TV channels to #yMillennium #yPrice, a contest held by the Millennium Science School.",
+      "Due to the delay in game development, you decide to watch this contest. NL Glasses with a self-destruct button? Dumbbells that can be used like grenades? NL It's still hard to understand science, but it's a good reference.",
+      "The works of various clubs were introduced and the long-awaited time for the awards ceremony came.. NL \"i... I hope we get good results!!\" NL ~drumroll~",
+      "\"we... We did it! We're @winning!@ \" NL Surprisingly, the game made with everyone wins the #yMillennium #yPrice. NL \nThis is the fruit of the efforts of everyone in the game development department.",
+      "You decide to decorate the club with a game that everyone puts effort into. NL It would be nice to get everyone together and try again later. NL (Saved Millennium Quest Cards can be obtained through the Act 1 event at Ascension 0.)"
+    ],
+    "OPTIONS": [
+      "[Watch the Contest] Choose #gother #gcharacter's #gRare #gCard #gto #gobtain. ",
+      "[Join the Contest] #gObtain #gRandom #gRare #gRelic and #gGain #g",
+      " #gGold. ",
+      "[Locked] Requires: Completed Millennium Quest.",
+      "[Save] Save winning #gMillennium #gQuest Card.",
+      "[Save] Save winning #gMillennium #gQuest Card. (Existing card will be erased.)",
+      "[Leave]",
+      "[Continue]"
+    ]
+  }
+}

@@ -1,0 +1,479 @@
+{
+  "BlueArchive_Aris:ArisStrike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "BlueArchive_Aris:ArisDefend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block."
+  },
+  "BlueArchive_Aris:SuperNova": {
+    "NAME": "Super Nova",
+    "DESCRIPTION": "BlueArchive_Aris:Equipment: AOE DPS NL BlueArchive_Aris:ClassChange: Deal !D! damage to ALL enemies. NL BlueArchive_Aris:Job *Effect: ALL of your cards containing \"Strike\" deals !M! more damage."
+  },
+  "BlueArchive_Aris:WoodenStick": {
+    "NAME": "Beginner's Weapon",
+    "DESCRIPTION": "BlueArchive_Aris:Equipment: Beginner NL BlueArchive_Aris:ClassChange: Draw 1 card. NL BlueArchive_Aris:Job *Effect: Nothing.",
+    "UPGRADE_DESCRIPTION": "Innate. NL BlueArchive_Aris:Equipment: Beginner NL BlueArchive_Aris:ClassChange: Draw 1 card. NL BlueArchive_Aris:Job *Effect: Nothing."
+  },
+  "BlueArchive_Aris:EnergyCharge": {
+    "NAME": "Energy Charge",
+    "DESCRIPTION": "Gain !B! Block. NL Consume [E] and gain that much BlueArchive_Aris:Reactor.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Consume [E] [E] and gain that much BlueArchive_Aris:Reactor."
+  },
+  "BlueArchive_Aris:EnergyProjection": {
+    "NAME": "Energy Projection",
+    "DESCRIPTION": "Deal !D! damage. NL BlueArchive_Aris:Overload: Deal double damage."
+  },
+  "BlueArchive_Aris:ShootTheFloor": {
+    "NAME": "Shoot The Floor",
+    "DESCRIPTION": "Take !M! damage. NL Deal !D! damage to ALL enemies."
+  },
+  "BlueArchive_Aris:SelfRepair": {
+    "NAME": "Auto Recovery",
+    "DESCRIPTION": "Gain !B! Block. NL BlueArchive_Aris:Overload: Gain !B! Block again."
+  },
+  "BlueArchive_Aris:Ouch": {
+    "NAME": "Ouch!",
+    "DESCRIPTION": "Take !M! damage. NL Draw 2 cards. NL Each time it is used, the damage taken during this battle is !BlueArchive_Aris:M! increases."
+  },
+  "BlueArchive_Aris:HailingLight": {
+    "NAME": "Hailing Light!",
+    "DESCRIPTION": "BlueArchive_Aris:Output. NL Gain !M! BlueArchive_Aris:Reactor."
+  },
+  "BlueArchive_Aris:ReactiveArmour": {
+    "NAME": "Reactive Armour",
+    "DESCRIPTION": "Gain !M! BlueArchive_Aris:Restore. NL Whenever you lose HP, returns from the Discard Pile into your hand."
+  },
+  "BlueArchive_Aris:EquipHotkey": {
+    "NAME": "Equip Hotkey",
+    "DESCRIPTION": "Innate. NL Put a BlueArchive_Aris:Equipment card from draw pile to hand. If you don't have an BlueArchive_Aris:Equipment card, Draw 1 card. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. Retain. NL Put a BlueArchive_Aris:Equipment card from draw pile to hand. If you don't have an BlueArchive_Aris:Equipment card, Draw 1 card. NL Exhaust."
+  },
+  "BlueArchive_Aris:FullCharging": {
+    "NAME": "Full Charging",
+    "DESCRIPTION": "BlueArchive_Aris:Output. NL Draw X cards. NL Gain X BlueArchive_Aris:Reactor. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "BlueArchive_Aris:Output. NL Draw X+1 cards. NL Gain X+1 BlueArchive_Aris:Reactor. NL Exhaust."
+  },
+  "BlueArchive_Aris:Shock": {
+    "NAME": "Shocked!",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! BlueArchive_Aris:Shock. NL Exhaust."
+  },
+  "BlueArchive_Aris:StaticStrike": {
+    "NAME": "Static Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Add a *Shocked! into your hand.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Add a *Shocked!+ into your hand."
+  },
+  "BlueArchive_Aris:ShortCircuit": {
+    "NAME": "Short Circuit",
+    "DESCRIPTION": "Ethereal. NL Add *Shocked! until your hand is full. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add *Shocked! until your hand is full. NL Exhaust."
+  },
+  "BlueArchive_Aris:Firewall": {
+    "NAME": "Firewall",
+    "DESCRIPTION": "Apply !M! Weak. NL Apply !BlueArchive_Aris:M! BlueArchive_Aris:Shock. NL Exhaust."
+  },
+  "BlueArchive_Aris:PrismaticBeams": {
+    "NAME": "Prismatic Beam",
+    "DESCRIPTION": "Deal !D! damage. NL BlueArchive_Aris:Overload: Add a Damage !M! Increased *Prismatic *Beam into your hand with Ethereal, Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL BlueArchive_Aris:Overload: Add a Damage !M! Increased *Prismatic *Beam+ into your hand with Ethereal, Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      "Ethereal. NL Deal !D! damage. NL BlueArchive_Aris:Overload: Add a Damage !M! Increased *Prismatic *Beam into your hand with Ethereal, Exhaust. NL Exhaust.",
+      "Ethereal. NL Deal !D! damage. NL BlueArchive_Aris:Overload: Add a Damage !M! Increased *Prismatic *Beam+ into your hand with Ethereal, Exhaust. NL Exhaust."
+    ]
+  },
+  "BlueArchive_Aris:StraightStrike": {
+    "NAME": "Straight Strike",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Whenever BlueArchive_Aris:ClassChange is activated, returns from the Discard Pile into your hand."
+  },
+  "BlueArchive_Aris:SavePoint": {
+    "NAME": "Save Point",
+    "DESCRIPTION": "When you would die, heal to !M! once."
+  },
+  "BlueArchive_Aris:Glitch": {
+    "NAME": "Glitch",
+    "DESCRIPTION": "BlueArchive_Aris:Overload triggers twice."
+  },
+  "BlueArchive_Aris:CleanInventory": {
+    "NAME": "Cleanup Inventory",
+    "DESCRIPTION": "Draw !M! cards. BlueArchive_Aris:Overload: Draw !BlueArchive_Aris:M! cards again."
+  },
+  "BlueArchive_Aris:ThresholdBreak": {
+    "NAME": "Threshold Break",
+    "DESCRIPTION": "Take !M! damage. NL Gain !M! BlueArchive_Aris:Reactor. NL Exhaust."
+  },
+  "BlueArchive_Aris:CreatedApotheosis": {
+    "NAME": "Artificial Apotheosis",
+    "DESCRIPTION": "Upgrade your !M! cards for the rest of combat. NL Can be upgraded any number of times. NL Exhaust."
+  },
+  "BlueArchive_Aris:Autofire": {
+    "NAME": "Autofire",
+    "DESCRIPTION": "Deal !D! damage. NL returns all cards containing \"Strike\" from the Discard Pile into your hand. NL It costs 0 this turn."
+  },
+  "BlueArchive_Aris:CheatCode": {
+    "NAME": "Cheat Code",
+    "DESCRIPTION": "Deal !D! damage. NL BlueArchive_Aris:Overload: The next card you play costs 0 this turn."
+  },
+  "BlueArchive_Aris:DesperateStrike": {
+    "NAME": "Desperate Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Lose your BlueArchive_Aris:Job and take BlueArchive_Aris:Equipment card into your hand."
+  },
+  "BlueArchive_Aris:GiantSwingStrike": {
+    "NAME": "Giant Swing Strike",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Gain !B! Block for each enemy in combat."
+  },
+  "BlueArchive_Aris:CloakAndGlassRod": {
+    "NAME": "Cloak And Glass Rod",
+    "DESCRIPTION": "Gain !B! Block. NL Add !M! *Shocked! into your hand."
+  },
+  "BlueArchive_Aris:Bzzzzz": {
+    "NAME": "Bzzzzz",
+    "DESCRIPTION": "Double an enemy's BlueArchive_Aris:Shock then Deal !D! damage !M! times. NL Exhaust."
+  },
+  "BlueArchive_Aris:LevelUp": {
+    "NAME": "LevelUp",
+    "DESCRIPTION": "BlueArchive_Aris:Job *Effect is applied once more."
+  },
+  "BlueArchive_Aris:Mask": {
+    "NAME": "Mask of Warrior",
+    "DESCRIPTION": "BlueArchive_Aris:Equipment: Warrior NL BlueArchive_Aris:ClassChange: Gain !B! Block. NL BlueArchive_Aris:Job *Effect: Whenever you lose HP, Gain !M! BlueArchive_Aris:Restore."
+  },
+  "BlueArchive_Aris:DoubleCharge": {
+    "NAME": "Double Charge",
+    "DESCRIPTION": "Gain BlueArchive_Aris:Reactor as much as current BlueArchive_Aris:Reactor. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Gain BlueArchive_Aris:Reactor equal to the sum of current Energy and BlueArchive_Aris:Reactor. NL Exhaust."
+  },
+  "BlueArchive_Aris:NanoMachine": {
+    "NAME": "Nano Machine",
+    "DESCRIPTION": "You take no damage until the end of your next turn. At the end of the next turn, lose half of that HP. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "You take no damage until the end of your next turn. At the end of the next turn, lose 1/4 of that HP. NL Exhaust."
+  },
+  "BlueArchive_Aris:AuxiliaryPowerCard": {
+    "NAME": "Auxiliary Power",
+    "DESCRIPTION": "BlueArchive_Aris:Reactor is not removed at the end of your turn. "
+  },
+  "BlueArchive_Aris:AwakeningSupernova": {
+    "NAME": "Awakening Supernova!",
+    "DESCRIPTION": "Whenever BlueArchive_Aris:Reactor is consume, Gain !M! Strength. The Strength gained is lost at the end of the your turn."
+  },
+  "BlueArchive_Aris:JobMastery": {
+    "NAME": "Job Mastery",
+    "DESCRIPTION": "Whenever a BlueArchive_Aris:ClassChange is activated, Gain !M! Block."
+  },
+  "BlueArchive_Aris:WeaponMaster": {
+    "NAME": "Weapon Mastery",
+    "DESCRIPTION": "Whenever BlueArchive_Aris:Job changes, Draw 1 card."
+  },
+  "BlueArchive_Aris:ElixirSyndrome": {
+    "NAME": "Elixir Syndrome",
+    "DESCRIPTION": "Gain !B! Block. NL BlueArchive_Aris:Quest: Discard 3 Potions. NL Reward: *Last *Elixir",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL BlueArchive_Aris:Quest: Discard 3 Potions. NL Reward: *Last *Elixir+",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      " left.)"
+    ]
+  },
+  "BlueArchive_Aris:Elixir": {
+    "NAME": "Last Elixir",
+    "DESCRIPTION": "BlueArchive_Aris:Reward NL raise your Max HP by !M! and heal all of your HP. NL BlueArchive_Aris:PermaExhaust"
+  },
+  "BlueArchive_Aris:Grinding": {
+    "NAME": "Grinding",
+    "DESCRIPTION": "Draw !M! Cards. NL BlueArchive_Aris:Quest: Owns 500 golds. NL Reward: *P2W *Sword",
+    "UPGRADE_DESCRIPTION": "Draw !M! Cards. NL BlueArchive_Aris:Quest: Owns 500 golds. NL Reward: *P2W *Sword+",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      " left.)"
+    ]
+  },
+  "BlueArchive_Aris:ExecutionSword": {
+    "NAME": "P2W Sword",
+    "DESCRIPTION": "BlueArchive_Aris:Reward NL Deal damage equal to 1/10 of golds.",
+    "UPGRADE_DESCRIPTION": " NL (Deal !D! damage.)"
+  },
+  "BlueArchive_Aris:Diet": {
+    "NAME": "Compulsion",
+    "DESCRIPTION": "Exhaust up to !M! card in your hand. NL BlueArchive_Aris:Quest: Skip 3 cards continuously. NL Reward: *Neat *Compression NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Exhaust up to !M! cards in your hand. NL BlueArchive_Aris:Quest: Skip 3 cards continuously. NL Reward: *Neat *Compression+ NL Exhaust.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      " left.)"
+    ]
+  },
+  "BlueArchive_Aris:NeatCompression": {
+    "NAME": "Neat Compression",
+    "DESCRIPTION": "BlueArchive_Aris:Reward NL Select 1 card NL from your deck NL and BlueArchive_Aris:PermaExhaust. NL BlueArchive_Aris:PermaExhaust.",
+    "UPGRADE_DESCRIPTION": "BlueArchive_Aris:Reward NL Select 1 card NL from your deck NL and BlueArchive_Aris:PermaExhaust. NL Upgrade a random card in your deck. NL BlueArchive_Aris:PermaExhaust."
+  },
+  "BlueArchive_Aris:RaidAddiction": {
+    "NAME": "Raid Addiction",
+    "DESCRIPTION": "Deal !D! damage. NL BlueArchive_Aris:Quest: Defeat Elite 3 times. NL Reward: *Raiders *Leader",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL BlueArchive_Aris:Quest: Defeat Elite 3 times. NL Reward: *Raiders Leader+",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      " left.)"
+    ]
+  },
+  "BlueArchive_Aris:RaidersLeader": {
+    "NAME": "Raiders Leader",
+    "DESCRIPTION": "BlueArchive_Aris:Reward NL Deal !D! damage. NL Apply !M! BlueArchive_Aris:Shock, Vulnerable and Weak."
+  },
+  "BlueArchive_Aris:ElectronicExplosion": {
+    "NAME": "Electronic Explosion",
+    "DESCRIPTION": "Deal !D! damage to a random enemy for each BlueArchive_Aris:Overload activated this combat.",
+    "UPGRADE_DESCRIPTION": " NL ( Deal !M! times. )"
+  },
+  "BlueArchive_Aris:Superconductor": {
+    "NAME": "Superconductor",
+    "DESCRIPTION": "Deal !D! damage. NL BlueArchive_Aris:Overload: Draw !M! card. Discard !M! card."
+  },
+  "BlueArchive_Aris:PrecisionCamera": {
+    "NAME": "Precision Camera",
+    "DESCRIPTION": "Apply !M! Vulnerable to ALL enemies. NL BlueArchive_Aris:Overload: Instead, Apply !M! Weak to ALL enemies. NL Exhaust."
+  },
+  "BlueArchive_Aris:SteelBody": {
+    "NAME": "Steel Body",
+    "DESCRIPTION": "Gain !B! Block. NL BlueArchive_Aris:Overload: Gain 1 BlueArchive_Aris:Reactor."
+  },
+  "BlueArchive_Aris:HoldOn": {
+    "NAME": "Hold On",
+    "DESCRIPTION": "Take !M! damage. NL Gain !BlueArchive_Aris:M! BlueArchive_Aris:Restore."
+  },
+  "BlueArchive_Aris:FakeIDCard": {
+    "NAME": "Fake ID Card",
+    "DESCRIPTION": "Activate BlueArchive_Aris:ClassChange of Currently equipped BlueArchive_Aris:Equipment. NL Lose your BlueArchive_Aris:Job and discard BlueArchive_Aris:Equipment."
+  },
+  "BlueArchive_Aris:HeroQuest": {
+    "NAME": "Hero Quest",
+    "DESCRIPTION": "Unplayable. NL BlueArchive_Aris:Quest: Climb 12 floors. NL Reward: *Sword *of *Hero",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL BlueArchive_Aris:Quest: Climb 12 floors. NL Reward: *Sword *of *Hero+",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      " left.)",
+      "I can't play this card."
+    ]
+  },
+  "BlueArchive_Aris:SwordOfHero": {
+    "NAME": "Sword of Hero",
+    "DESCRIPTION": "BlueArchive_Aris:Output. BlueArchive_Aris:Reward. BlueArchive_Aris:Equipment: Hero NL BlueArchive_Aris:ClassChange: Gain !M! BlueArchive_Aris:Reactor NL BlueArchive_Aris:Job *Effect: Whenever you play an Skill, NL Take a *Sword *Beam."
+  },
+  "BlueArchive_Aris:SwordBlast": {
+    "NAME": "Sword Beam",
+    "DESCRIPTION": "Ethereal. NL Deal !D! damage. NL Exhaust."
+  },
+  "BlueArchive_Aris:StaticArmour": {
+    "NAME": "Static Armour",
+    "DESCRIPTION": "Whenever you lose HP, Apply !M! BlueArchive_Aris:Shock to ALL enemies."
+  },
+  "BlueArchive_Aris:Thunder": {
+    "NAME": "Thunder",
+    "DESCRIPTION": "Deal !D! damage. BlueArchive_Aris:Overload: Gain !M! BlueArchive_Aris:Reactor."
+  },
+  "BlueArchive_Aris:Transformer": {
+    "NAME": "Transformer",
+    "DESCRIPTION": "Apply !M! BlueArchive_Aris:Shock. That enemy's BlueArchive_Aris:Shock deals damage to all enemies. NL Exhaust."
+  },
+  "BlueArchive_Aris:Rogue": {
+    "NAME": "Rogue's Dagger",
+    "DESCRIPTION": "BlueArchive_Aris:Equipment: Rogue NL BlueArchive_Aris:ClassChange: Apply !M! Weak and BlueArchive_Aris:Shock to ALL enemies. NL BlueArchive_Aris:Job *Effect: Whenever you play a 0-cost card, Apply 1 BlueArchive_Aris:Shock to a random enemy"
+  },
+  "BlueArchive_Aris:IdolRibbon": {
+    "NAME": "Idol's Ribbon",
+    "DESCRIPTION": "BlueArchive_Aris:Equipment: Idol NL BlueArchive_Aris:ClassChange: Draw !M! cards. NL BlueArchive_Aris:Job *Effect: At the start of turn, Take a random other character Common card."
+  },
+  "BlueArchive_Aris:DailyQuest": {
+    "NAME": "Daily Quest",
+    "DESCRIPTION": "Deal !D! damage. NL BlueArchive_Aris:Quest: Complete 3 battles. NL Reward: Heal !M! HP, *Daily *Quest",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL BlueArchive_Aris:Quest: Complete 3 battles. NL Reward: Heal !M! HP, 50 golds, *Daily *Quest",
+    "EXTENDED_DESCRIPTION": [
+      " NL (",
+      " left.)"
+    ]
+  },
+  "BlueArchive_Aris:Thoughtsteal": {
+    "NAME": "Thoughtsteal",
+    "DESCRIPTION": "add !M! Random cards from different characters. NL Taken cards cost 1 less for this turn and gain Exhaust.",
+    "UPGRADE_DESCRIPTION": "add !M! Random cards from different characters. NL Taken cards get Exhaust. NL ALL other Character Cards in your hand cost 1 less for this turn.",
+    "EXTENDED_DESCRIPTION": [
+      "Ethereal. NL ",
+      " NL Exhaust. "
+    ]
+  },
+  "BlueArchive_Aris:Cabinet": {
+    "NAME": "Cabinet",
+    "DESCRIPTION": "Gain !B! Block. NL Block you gain from this card increases to !M! each time you lose HP in combat."
+  },
+  "BlueArchive_Aris:ItemCopyBug": {
+    "NAME": "Item Copy Bug",
+    "DESCRIPTION": "Take Copies of all cards in your hands except BlueArchive_Aris:Reward cards. Exhaust."
+  },
+  "BlueArchive_Aris:BFStrike": {
+    "NAME": "BF Strike",
+    "DESCRIPTION": "Deal !D! damage !M! times."
+  },
+  "BlueArchive_Aris:BalanceBroken": {
+    "NAME": "Collapsing Worlds!",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Increases damage by !M! for each BlueArchive_Aris:Reactor consumed by this card. NL Exhaust."
+  },
+  "BlueArchive_Aris:EnergyDischarge": {
+    "NAME": "Energy Discharge",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL energy becomes 0."
+  },
+  "BlueArchive_Aris:SystemOverload": {
+    "NAME": "System Overload",
+    "DESCRIPTION": "All cards gain NL \" BlueArchive_Aris:Overload: Exhaust. Gain !M! Block. \" this turn."
+  },
+  "BlueArchive_Aris:Ranker": {
+    "NAME": "Ranker",
+    "DESCRIPTION": "Deal !D! damage. NL If this card is the only Rare card, its base cost is 2. NL if this card is the only Attack, its base cost is 0."
+  },
+  "BlueArchive_Aris:CS": {
+    "NAME": "Finishing Blow",
+    "DESCRIPTION": "Deal !D! damage. NL Shuffle a *LevelUp into your draw pile. NL If you kill an enemy, Add it into your hand instead.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Add *LevelUp into your hand."
+  },
+  "BlueArchive_Aris:WizardHat": {
+    "NAME": "Wizard Hat",
+    "DESCRIPTION": "BlueArchive_Aris:Equipment: Wizard NL BlueArchive_Aris:ClassChange: Take a random Power from your deck. NL BlueArchive_Aris:Job *Effect: Whenever you apply a Debuff to an enemy, Gain !M! BlueArchive_Aris:Restore.",
+    "UPGRADE_DESCRIPTION": "BlueArchive_Aris:Equipment: Wizard NL BlueArchive_Aris:ClassChange: Take a Power from your deck. NL BlueArchive_Aris:Job *Effect: Whenever you apply a Debuff to an enemy, Gain !M! BlueArchive_Aris:Restore."
+  },
+  "BlueArchive_Aris:Tutorial": {
+    "NAME": "Tutorial",
+    "DESCRIPTION": "BlueArchive_Aris:Output. NL Gain !B! Block X times. NL Choose a card with a cost of X or less and set it to 0 cost until the end of the turn."
+  },
+  "BlueArchive_Aris:Fishing": {
+    "NAME": "Fishing",
+    "DESCRIPTION": "Gain !B! Block. NL Add a random card from the discard pile to your hand."
+  },
+  "BlueArchive_Aris:CursedWeapon": {
+    "NAME": "Cursed Weapon",
+    "DESCRIPTION": "Deal !D! damage. NL While in hand, Take !M! damage and increase this card's damage by !BlueArchive_Aris:M! this combat when other cards are played."
+  },
+  "BlueArchive_Aris:EnhancementScroll": {
+    "NAME": "Enchantment Scroll",
+    "DESCRIPTION": "Gives !M! Strength or Dexterity to current BlueArchive_Aris:Equipment. This effect only applies while wearing the BlueArchive_Aris:Equipment.",
+    "EXTENDED_DESCRIPTION": [
+      "(",
+      " Strength ",
+      " ,",
+      " Dexterity ",
+      " ) NL "
+    ]
+  },
+  "BlueArchive_Aris:WeakeningCurse": {
+    "NAME": "Weakening Curse",
+    "DESCRIPTION": "Enemy loses !M! Strength. The reduced Strength slowly returns over !BlueArchive_Aris:M! turns. Exhaust."
+  },
+  "BlueArchive_Aris:ChooseWeaponsmith": {
+    "NAME": "Choose Enchant Weapon",
+    "DESCRIPTION": "Gives !M! Strength to current BlueArchive_Aris:Equipment."
+  },
+  "BlueArchive_Aris:ChooseArmoursmith": {
+    "NAME": "Choose Enchant Armour",
+    "DESCRIPTION": "Gives !M! Dexterity to current BlueArchive_Aris:Equipment."
+  },
+  "BlueArchive_Aris:DevilYuuka": {
+    "NAME": "Devil Yuuka",
+    "DESCRIPTION": "BlueArchive_Aris:Equipment: Devil NL BlueArchive_Aris:ClassChange: Gives !M! Strength and Dexterity to this BlueArchive_Aris:Equipment. NL BlueArchive_Aris:Job *Effect: At the end of your turn, lose !BlueArchive_Aris:M! Strength and Dexterity from this BlueArchive_Aris:Equipment."
+  },
+  "BlueArchive_Aris:MomoiAppear": {
+    "NAME": "Momoi Appear",
+    "DESCRIPTION": "Create a card. NL If you take card, Exhaust this card, NL if you don't, next time it's better.",
+    "UPGRADE_DESCRIPTION": "Innate NL Create a card. NL If you take card, Exhaust this card, NL if you don't, next time it's better.",
+    "EXTENDED_DESCRIPTION": [
+      " NL (refuse ",
+      " times.)"
+    ]
+  },
+  "BlueArchive_Aris:GameScenario": {
+    "NAME": "Game Scenario",
+    "DESCRIPTION": "What cards will be made? NL The effect is not known until it is made."
+  },
+  "BlueArchive_Aris:ChooseRefuse": {
+    "NAME": "Make Again!",
+    "DESCRIPTION": "Refuse this scenario and create a better one next time."
+  },
+  "BlueArchive_Aris:ArisForm": {
+    "NAME": "Pixel Form",
+    "DESCRIPTION": "Ethereal. NL at the start of your next !M! turns, Grant 1 Intangible to EVERYONE.",
+    "UPGRADE_DESCRIPTION": "at the start of your next !M! turns, Grant 1 Intangible to EVERYONE."
+  },
+  "BlueArchive_Aris:CustomGameCard": {
+    "NAME": "Millennium Quest",
+    "DESCRIPTION": "Deal !D! damage. NL (It's still just an illustration, but it can be improved!)",
+    "EXTENDED_DESCRIPTION": [
+      "Innate. ",
+      "Ethereal. ",
+      "Retain. ",
+      "Scry %1. ",
+      "Lose %3 HP. ",
+      "Deal !D! damage. ",
+      "Deal !D! damage to ALL enemies. ",
+      "Deal !D! damage %1 times. ",
+      "Deal !D! damage to a random enemy. ",
+      "Deal !D! damage to a random enemy %1 times. ",
+      "Channel %1 Lightning. ",
+      "Channel %1 Frost. " ,
+      "Channel %1 Dark. ",
+      "Gain !B! Block. ",
+      "Gain %1 Intangible. ",
+      "Gain %1 Strength. ",
+      "Gain %1 Dexterity. ",
+      "Gain %1 *Temp Strength. ",
+      "Gain %1 *Temp Dexterity. ",
+      "Gain %1 *Plated *Armor. ",
+      "Your next Attack deals !M! additional damage. ",
+      "Enter Divinity. ",
+      "Obtain a random potion. ",
+      "Heal %1 HP. ",
+      "Block is not removed at the start of your next turn. ",
+      "Enemy loses %1 Strength. ",
+      "Apply !M! Poison. ",
+      "Apply !M! Poison to ALL enemies. ",
+      "Enemy loses 1% Strength for the rest of this turn. ",
+      "Apply %1 Weak. ",
+      "Apply %1 Weak to ALL enemies. ",
+      "Apply %1 Vulnerable. ",
+      "Apply %1 Vulnerable to ALL enemies. ",
+      "Apply %1 Weak and Vulnerable. ",
+      "Draw !M! card(s). ",
+      "Exhaust a card from your hand. ",
+      "Exhaust a random card from your hand. ",
+      "Shuffle an *Insight into your draw pile. ",
+      "Discard 1 card. ",
+      "Discard 1 card at random. ",
+      "Gain [E] . ",
+      "Gain [E] [E] . ",
+      "Next turn, gain [E] . ",
+      "Next turn, gain [E] [E] . ",
+      "Exhaust all cards in your hand. ",
+      "Discard all cards in your hand. ",
+      "Add a random Attack to your hand. It costs 0 this turn. ",
+      "Add a random Skill to your hand. It costs 0 this turn. ",
+      "Add a random Power to your hand. It costs 0 this turn. ",
+      "Add a random Card to your hand. It costs 0 this turn. ",
+      "Add %1 *Shiv(s) to your hand. ",
+      "Upgrade a card in your hand. ",
+      "Upgrade %1 random card(s) in your hand. ",
+      "Upgrade ALL cards in your hand. ",
+      "Create a copy of a card in your hand. ",
+      "Add a copy of this card to your discard pile. ",
+      "Shuffle a *Wound into your draw pile. ",
+      "Shuffle a *Dazed into your draw pile. ",
+      "Shuffle a *Void into your draw pile. ",
+      "Shuffle a *Burn into your draw pile. ",
+      "Add %1 *Wound(s) to your hand. ",
+      "Add %1 *Burn(s) to your hand. ",
+      "Add a *Burn into your discard pile. ",
+      "Add a *Wound into your discard pile. ",
+      "Upgrade a random card in your deck. ",
+      "Gain %1 Max HP. ",
+      "Gain %1 golds. ",
+      "Shuffle an *Omega into draw pile. ",
+      "Die next turn. ",
+      "Retain your hand this turn. ",
+      "When this card is drawn, lose 1 Energy. ",
+      "Exhaust. "
+    ]
+  }
+}

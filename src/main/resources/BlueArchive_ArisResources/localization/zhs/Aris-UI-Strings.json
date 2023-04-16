@@ -1,0 +1,32 @@
+{
+  "BlueArchive_Aris:EquipHotkeyAction": {
+    "TEXT": [
+      "Choose an Equipment card to add into your hand"
+    ]
+  },
+  "BlueArchive_Aris:SkipCardUI": {
+    "TEXT": [
+      "Skip(Quest progress)"
+    ]
+  },
+  "BlueArchive_Aris:PurifyCardAction": {
+    "TEXT": [
+      "Choose a card to Exhaust permanently"
+    ]
+  },
+  "BlueArchive_Aris:GetPowerAction": {
+    "TEXT": [
+      "Choose a Power to add into your hand"
+    ]
+  },
+  "BlueArchive_Aris:TutorialAction": {
+    "TEXT": [
+      "Choose a card that will reduce cost."
+    ]
+  },
+  "BlueArchive_Aris:BlacksmithAction": {
+    "TEXT": [
+      "I don't have any Equipment"
+    ]
+  }
+}

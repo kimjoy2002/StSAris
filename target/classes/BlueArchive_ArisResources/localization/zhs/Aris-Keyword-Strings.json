@@ -1,0 +1,89 @@
+[
+  {
+    "PROPER_NAME": "ClassChange",
+    "NAMES": [
+      "classchange",
+      "classchanges",
+      "classchanged",
+      "classchanging"
+    ],
+    "DESCRIPTION": "This effect is triggered when the Job is changed."
+  },
+  {
+    "PROPER_NAME": "Job",
+    "NAMES": [
+      "job"
+    ],
+    "DESCRIPTION": "It takes Job Effect while Equipment is equipped. You can only have one Job at a time."
+  },
+  {
+    "PROPER_NAME": "Reactor",
+    "NAMES": [
+      "reactor"
+    ],
+    "DESCRIPTION": "Instead of lacking [E] , use the card by consuming Reactor. It disappears at the end of your turn."
+  },
+  {
+    "PROPER_NAME": "Output",
+    "NAMES": [
+      "output",
+      "outputs"
+    ],
+    "DESCRIPTION": "Reactor is not available when using this card."
+  },
+  {
+    "PROPER_NAME": "Overload",
+    "NAMES": [
+      "overload",
+      "overloads"
+    ],
+    "DESCRIPTION": "When used, if the remaining [E] is 0, the effect is activated."
+  },
+  {
+    "PROPER_NAME": "Equipment",
+    "NAMES": [
+      "equipment",
+      "equipments"
+    ],
+    "DESCRIPTION": "When used, it is attached to the character and changes Jobs. If you already have Equipment, discard the old Equipment."
+  },
+  {
+    "PROPER_NAME": "Quest",
+    "NAMES": [
+      "quest",
+      "quests"
+    ],
+    "DESCRIPTION": "When you complete a quest, it turns into a Reward card."
+  },
+  {
+    "PROPER_NAME": "Shock",
+    "NAMES": [
+      "shock",
+      "shocked"
+    ],
+    "DESCRIPTION": "Each time you are attacked, you lose HP equal to the Shock value and decrease it by 1."
+  },
+  {
+    "PROPER_NAME": "PermaExhaust",
+    "NAMES": [
+      "permaexhaust"
+    ],
+    "DESCRIPTION": "Permanently removed from the deck."
+  },
+  {
+    "PROPER_NAME": "Reward",
+    "NAMES": [
+      "reward",
+      "rewards"
+    ],
+    "DESCRIPTION": "Reward cards cannot be obtained normally. You can get it by completing a Quest."
+  },
+  {
+    "PROPER_NAME": "Restore",
+    "NAMES": [
+      "restore",
+      "restores"
+    ],
+    "DESCRIPTION": "At the end of your turn, it is converted to Block."
+  }
+]

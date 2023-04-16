@@ -1,0 +1,182 @@
+{
+  "BlueArchive_Aris:JobAoePower": {
+    "NAME": "직업: 광역딜러",
+    "DESCRIPTIONS": [
+      "이름에 \"타격\"이 포함한 카드가 추가로 피해를 #b",
+      " 줍니다."
+    ]
+  },
+  "BlueArchive_Aris:JobNewbyPower": {
+    "NAME": "직업: 초보자",
+    "DESCRIPTIONS": [
+      "아무 효과도 없습니다."
+    ]
+  },
+  "BlueArchive_Aris:ChargePower": {
+    "NAME": "전력",
+    "DESCRIPTIONS": [
+      "모자란 에너지 대신 #y전력을 소모하여 카드를 사용할 수 있습니다. 턴이 끝나면 사라집니다."
+    ]
+  },
+  "BlueArchive_Aris:ShockPower": {
+    "NAME": "감전",
+    "DESCRIPTIONS": [
+      "공격 받을때마다 체력을 #r",
+      " 잃고 수치가 1 감소합니다."
+    ]
+  },
+  "BlueArchive_Aris:SavePointPower": {
+    "NAME": "저장 지점",
+    "DESCRIPTIONS": [
+      "체력이 0 이하가 될 때 한 번 체력을 #b",
+      " 회복하고 부활합니다."
+    ]
+  },
+  "BlueArchive_Aris:BalanceBrokenPower": {
+    "NAME": "글리치",
+    "DESCRIPTIONS": [
+      "#y과부하가 #b",
+      " 번 발동합니다."
+    ]
+  },
+  "BlueArchive_Aris:FreeCardPower": {
+    "NAME": "무료 사용",
+    "DESCRIPTIONS": [
+      "다음에 사용하는 카드의 비용이 0이 됩니다.",
+      "다음에 사용하는 #b",
+      " 장의 카드의 비용이 0이 됩니다."
+    ]
+  },
+  "BlueArchive_Aris:JobWarriorPower": {
+    "NAME": "직업: 전사",
+    "DESCRIPTIONS": [
+      "체력을 잃을때마다, #y복구를 #b",
+      " 얻습니다."
+    ]
+  },
+  "BlueArchive_Aris:NanoMachinePower": {
+    "NAME": "나노머신",
+    "DESCRIPTIONS": [
+      "피해를 받지않습니다. 다음 턴이 끝날때 체력을 #r",
+      " 잃고 사라집니다.",
+      "피해를 받지않습니다. 이번 턴이 끝날때 체력을 #r",
+      " 잃고 사라집니다."
+    ]
+  },
+  "BlueArchive_Aris:AuxiliaryPower": {
+    "NAME": "보조 전원",
+    "DESCRIPTIONS": [
+      "턴이 끝나도 #y전력이 사라지지 않습니다."
+    ]
+  },
+  "BlueArchive_Aris:AwakeningSupernovaPower": {
+    "NAME": "슈퍼노바, 각성입니다!",
+    "DESCRIPTIONS": [
+      "전력을 소모할때마다 #y힘을 #b",
+      " 얻습니다. 얻은 힘은 턴이 끝날때 사라집니다."
+    ]
+  },
+  "BlueArchive_Aris:JobMasteryPower": {
+    "NAME": "직업 숙련",
+    "DESCRIPTIONS": [
+      "#y클래스체인지 효과가 발동할때마다 #y방어도를 #b",
+      " 얻습니다."
+    ]
+  },
+  "BlueArchive_Aris:WeaponMasterPower2": {
+    "NAME": "웨폰 마스터",
+    "DESCRIPTIONS": [
+      "직업이 바뀔때마다 카드를 #b",
+      " 장 뽑습니다.",
+      " 장 뽑습니다."
+    ]
+  },
+  "BlueArchive_Aris:JobHeroPower": {
+    "NAME": "직업: 용사",
+    "DESCRIPTIONS": [
+      "스킬 카드를 사용하면 #y검기 카드를 얻습니다.",
+      "스킬 카드를 사용하면 #y검기 카드를 #b",
+      " 장 얻습니다."
+    ]
+  },
+  "BlueArchive_Aris:EndTurnBlockPower": {
+    "NAME": "복구",
+    "DESCRIPTIONS": [
+      "자신의 턴이 끝나면 #y방어도 #b",
+      " 으로 변환됩니다."
+    ]
+  },
+  "BlueArchive_Aris:StaticArmourPower": {
+    "NAME": "정전기 갑옷",
+    "DESCRIPTIONS": [
+      "피해를 받을때마다 적 전체에 #y감전을 #b",
+      " 부여합니다."
+    ]
+  },
+  "BlueArchive_Aris:TransformerPower": {
+    "NAME": "변압기",
+    "DESCRIPTIONS": [
+      "#y감전의 데미지가 모든 적에게 전파됩니다."
+    ]
+  },
+  "BlueArchive_Aris:JobRoguePower": {
+    "NAME": "직업: 도적",
+    "DESCRIPTIONS": [
+      "비용이 0인 공격 카드를 사용시 무작위 적에게 #y감전을 #b",
+      " 부여합니다."
+    ]
+  },
+  "BlueArchive_Aris:JobIdolPower": {
+    "NAME": "직업: 아이돌",
+    "DESCRIPTIONS": [
+      "턴이 시작할때 무작위 다른 직업 일반 카드를 #b",
+      " 장 가져옵니다.",
+      " 장 가져옵니다."
+    ]
+  },
+  "BlueArchive_Aris:LevelUpPower": {
+    "NAME": "레벨업",
+    "DESCRIPTIONS": [
+      "자신의 #y직업 #y효과가 #b",
+      " 번 더 적용됩니다."
+    ]
+  },
+  "BlueArchive_Aris:SystemOverloadPower": {
+    "NAME": "시스템 과부하",
+    "DESCRIPTIONS": [
+      "이번 턴 모든 카드는 #y\"과부하: #y소멸합니다. #y방어도를 #b",
+      " 얻습니다.\" 를 얻습니다."
+    ]
+  },
+  "BlueArchive_Aris:JobWizardPower": {
+    "NAME": "직업: 마법사",
+    "DESCRIPTIONS": [
+      "적에게 부정적인 효과를 부여할때마다 #y복구를 #b",
+      " 얻습니다."
+    ]
+  },
+  "BlueArchive_Aris:RestoreStrPower": {
+    "NAME": "힘 복구",
+    "DESCRIPTIONS": [
+      "턴이 끝날때 #y힘이 #b",
+      "오릅니다.",
+      "다음 #b",
+      " 턴에 걸쳐서 턴이 끝날때 #y힘을 #b",
+      " 씩 오릅니다."
+    ]
+  },
+  "BlueArchive_Aris:JobDevilPower": {
+    "NAME": "직업: 마왕",
+    "DESCRIPTIONS": [
+      "턴이 끝날때 이 장비의 #y힘 과 #y민첩을 #r",
+      " 잃습니다."
+    ]
+  },
+  "BlueArchive_Aris:ArisFormPower": {
+    "NAME": "픽셀의 형상",
+    "DESCRIPTIONS": [
+      "다음 #b",
+      " 턴동안, 턴이 시작할때마다 모두에게 불가침을 #b1 부여합니다."
+    ]
+  }
+}

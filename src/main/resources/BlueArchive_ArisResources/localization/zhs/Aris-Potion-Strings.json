@@ -1,0 +1,10 @@
+{
+"BlueArchive_Aris:ChargePotion": {
+        "NAME": "Reactor Potion",
+        "DESCRIPTIONS": ["Gain #b", " #yReactor."]
+},
+"BlueArchive_Aris:ShockPotion": {
+        "NAME": "Shock Potion",
+        "DESCRIPTIONS": ["Apply #b", " #yShock."]
+}
+}

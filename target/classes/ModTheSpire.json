@@ -1,0 +1,12 @@
+{
+  "modid": "BlueArchive_Aris",
+  "name": "BlueArchive_Aris Mod",
+  "author_list": ["joy1999"],
+  "credits": "Basemod, ModTheSpire, #modding",
+  "description": "BlueArchive Aris Mod",
+  "version": "1.0.0",
+  "sts_version": "01-23-2019",
+  "mts_version": "3.8.0",
+  "dependencies": ["basemod", "stslib"],
+  "update_json": ""
+}

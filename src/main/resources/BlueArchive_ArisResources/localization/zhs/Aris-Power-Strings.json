@@ -1,0 +1,182 @@
+{
+  "BlueArchive_Aris:JobAoePower": {
+    "NAME": "Job: AOE DPS",
+    "DESCRIPTIONS": [
+      "ALL of your cards containing \"Strike\" deals #b",
+      " more damage."
+    ]
+  },
+  "BlueArchive_Aris:JobNewbyPower": {
+    "NAME": "Job: Beginner",
+    "DESCRIPTIONS": [
+      "Has no effect."
+    ]
+  },
+  "BlueArchive_Aris:ChargePower": {
+    "NAME": "Reactor",
+    "DESCRIPTIONS": [
+      "Instead of lacking [E] , use the card by consuming #yReactor. It disappears at the end of your turn."
+    ]
+  },
+  "BlueArchive_Aris:ShockPower": {
+    "NAME": "Shock",
+    "DESCRIPTIONS": [
+      "Each time you are attacked, you lose #r",
+      " HP and decrease value by 1."
+    ]
+  },
+  "BlueArchive_Aris:SavePointPower": {
+    "NAME": "Save Point",
+    "DESCRIPTIONS": [
+      "When you would die, heal to #b",
+      " once."
+    ]
+  },
+  "BlueArchive_Aris:BalanceBrokenPower": {
+    "NAME": "Glitch",
+    "DESCRIPTIONS": [
+      "#yOverload triggers #b",
+      " times."
+    ]
+  },
+  "BlueArchive_Aris:FreeCardPower": {
+    "NAME": "Free Card",
+    "DESCRIPTIONS": [
+      "The next card you play costs 0 this turn.",
+      "The next #b",
+      " cards you play costs 0 this turn."
+    ]
+  },
+  "BlueArchive_Aris:JobWarriorPower": {
+    "NAME": "Job: Warrior",
+    "DESCRIPTIONS": [
+      "Whenever you lose HP, Gain #b",
+      " #yRestore."
+    ]
+  },
+  "BlueArchive_Aris:NanoMachinePower": {
+    "NAME": "Nano Machine",
+    "DESCRIPTIONS": [
+      "You take no damage. At the end of the next turn, lose #r",
+      " HP and disappear.",
+      "You take no damage. At the end of the this turn, lose #r",
+      " HP and disappear."
+    ]
+  },
+  "BlueArchive_Aris:AuxiliaryPower": {
+    "NAME": "Auxiliary Power",
+    "DESCRIPTIONS": [
+      "#yReactor is not removed at the end of your turn."
+    ]
+  },
+  "BlueArchive_Aris:AwakeningSupernovaPower": {
+    "NAME": "Awakening Supernova!",
+    "DESCRIPTIONS": [
+      "Whenever #yReactor is consume, Gain #b",
+      " #yStrength. The #yStrength gained is lost at the end of the your turn."
+    ]
+  },
+  "BlueArchive_Aris:JobMasteryPower": {
+    "NAME": "Job Mastery",
+    "DESCRIPTIONS": [
+      "Whenever a #yClassChange is activated, Gain #b",
+      " #yBlock."
+    ]
+  },
+  "BlueArchive_Aris:WeaponMasterPower2": {
+    "NAME": "Weapon Mastery",
+    "DESCRIPTIONS": [
+      "Whenever #yJob changes, Draw #b",
+      " card.",
+      " cards."
+    ]
+  },
+  "BlueArchive_Aris:JobHeroPower": {
+    "NAME": "Job: Hero",
+    "DESCRIPTIONS": [
+      "Whenever you play an Skill, Add a #ySword #yBeam into your hand.",
+      "Whenever you play an Skill, Add",
+      " #ySword #yBeams into your hand."
+    ]
+  },
+  "BlueArchive_Aris:EndTurnBlockPower": {
+    "NAME": "Restore",
+    "DESCRIPTIONS": [
+      "At the end of your turn, it is converted to #b",
+      " Block."
+    ]
+  },
+  "BlueArchive_Aris:StaticArmourPower": {
+    "NAME": "Static Armour",
+    "DESCRIPTIONS": [
+      "Whenever you lose HP, Apply #b",
+      " #yShock to ALL enemies."
+    ]
+  },
+  "BlueArchive_Aris:TransformerPower": {
+    "NAME": "Transformer",
+    "DESCRIPTIONS": [
+      "#yShock deals damage to all enemies."
+    ]
+  },
+  "BlueArchive_Aris:JobRoguePower": {
+    "NAME": "Job: Rogue",
+    "DESCRIPTIONS": [
+      "Whenever you play a 0-cost card, Apply #b",
+      " #yShock to a random enemy."
+    ]
+  },
+  "BlueArchive_Aris:JobIdolPower": {
+    "NAME": "Job: Idol",
+    "DESCRIPTIONS": [
+      "At the start of turn, Take #b",
+      " random other character Common card.",
+      " random other character Common cards."
+    ]
+  },
+  "BlueArchive_Aris:LevelUpPower": {
+    "NAME": "LevelUp",
+    "DESCRIPTIONS": [
+      "#yJob #yEffect is applied ",
+      " more."
+    ]
+  },
+  "BlueArchive_Aris:SystemOverloadPower": {
+    "NAME": "System Overload",
+    "DESCRIPTIONS": [
+      "All cards gain \" #yOverload: #yExhaust. Gain #b",
+      " Block. \" this turn."
+    ]
+  },
+  "BlueArchive_Aris:JobWizardPower": {
+    "NAME": "Job: Wizard",
+    "DESCRIPTIONS": [
+      "Whenever you apply a #yDebuff to an enemy, Gain #b",
+      " #yRestore."
+    ]
+  },
+  "BlueArchive_Aris:RestoreStrPower": {
+    "NAME": "Restore Strength",
+    "DESCRIPTIONS": [
+      "#yStrength increases by #b",
+      " at the end of turn",
+      "Over the next #b",
+      " turns, #yStrength increases by #b",
+      " at the end of each turn."
+    ]
+  },
+  "BlueArchive_Aris:JobDevilPower": {
+    "NAME": "Job: Devil",
+    "DESCRIPTIONS": [
+      "At the end of your turn, lose #r",
+      " #yStrength and #yDexterity from this #yEquipment."
+    ]
+  },
+  "BlueArchive_Aris:ArisFormPower": {
+    "NAME": "Pixel Form",
+    "DESCRIPTIONS": [
+      "at the start of your next #b",
+      " turns, Grant #b1 #yIntangible to EVERYONE."
+    ]
+  }
+}

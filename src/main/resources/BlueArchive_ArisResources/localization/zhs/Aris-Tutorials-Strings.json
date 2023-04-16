@@ -1,0 +1,15 @@
+{
+  "BlueArchive_Aris:ArisTutorial": {
+    "TEXT": [
+      "Aris can use #yEquipment cards to equip #yEquipment. NL When you use an #yEquipment card, Aris changes to the #yJob writed on the card. NL You can only have one #yJob at a time, so if you use 2 #yEquipment cards, NL Remove and discard the equipped #yEquipment card.",
+      "As long as you have a #yJob, #yJob #yEffect are applied. NL Also, when changing #yJob, #yClassChange effect is activated. NL Focus on one #yJob or move between different #yJob to your advantage."
+    ],
+    "LABEL": [
+      "Next",
+      "Ok",
+      "Tutorial",
+      "(Page: ",
+      ")"
+    ]
+  }
+}

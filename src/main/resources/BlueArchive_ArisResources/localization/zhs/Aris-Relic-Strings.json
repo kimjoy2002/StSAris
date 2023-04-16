@@ -1,0 +1,84 @@
+{
+  "BlueArchive_Aris:ArisBaseRelic": {
+    "NAME": "Enhanced Magic!",
+    "FLAVOR": "\"I believe magic exists in Kivotos as well.\"",
+    "DESCRIPTIONS": [
+      "Gain #b",
+      " #ybluearchive_aris:Reactor the first time #ybluearchive_aris:ClassChange is triggered in each battle"
+    ]
+  },
+  "BlueArchive_Aris:ArisBaseRelicPlus": {
+    "NAME": "Enhanced Magic!+",
+    "FLAVOR": "\"It must. How else could you make me so happy, Sensei?\"",
+    "DESCRIPTIONS": [
+      "Replaced with the #rEnhanced #rMagic!. Gain #b",
+      " #ybluearchive_aris:Reactor the first time #ybluearchive_aris:ClassChange is triggered in each turn"
+    ]
+  },
+  "BlueArchive_Aris:HPPotion": {
+    "NAME": "HP Potion",
+    "FLAVOR": "Strawberry flavor added.",
+    "DESCRIPTIONS": [
+      "At the end of battle, Heal HP equal to the number of time you lose HP in combat."
+    ]
+  },
+  "BlueArchive_Aris:CopyCat": {
+    "NAME": "CopyCat",
+    "FLAVOR": "It is a giant Wavecat doll that is being sold with great acclaim.",
+    "DESCRIPTIONS": [
+      "Choose a random character and get that character's starting relic. Combat reward screens now contain selected character cards and choose 1 more card.",
+      "Choose a character.",
+      "Take the character's starting relic.",
+      "Gain the following character's card rewards, starting relic: NL ",
+      "Take the character's starting relic.",
+      "Get the combat reward for that character: #r",
+      ". On Card Reward screens, choose 1 more card."
+    ]
+  },
+  "BlueArchive_Aris:TASRelic": {
+    "NAME": "TAS",
+    "FLAVOR": "\"If you jump there and dash while crouching, you can skip the entire section.\"",
+    "DESCRIPTIONS": [
+      "Upon pick up, Every #ybluearchive_aris:Quest Card in your deck turns into an #yUpgraded #ybluearchive_aris:Reward."
+    ]
+  },
+  "BlueArchive_Aris:Battery": {
+    "NAME": "Battery",
+    "FLAVOR": "\"Aris doesn't eat batteries!\"",
+    "DESCRIPTIONS": [
+      "Gives an additional #b",
+      " #ybluearchive_aris:Shock the first time #ybluearchive_aris:Shock is applied to an enemy without #ybluearchive_aris:Shock."
+    ]
+  },
+  "BlueArchive_Aris:GameManual": {
+    "NAME": "Game Manual",
+    "FLAVOR": "It is a manual for a game that has a reputation for being very difficult to break without a manual.",
+    "DESCRIPTIONS": [
+      "At the start of the turn, half of your #yBlock is converted to #ybluearchive_aris:Restore."
+    ]
+  },
+  "BlueArchive_Aris:StartingEquipment": {
+    "NAME": "Starting Equipment",
+    "FLAVOR": "It's a piece of equipment that's given away for free in the starting town.",
+    "DESCRIPTIONS": [
+      "Gives #b",
+      " #yStrength and #yDexterity to the first #ybluearchive_aris:Equipment per combat. This effect only applies while wearing the #ybluearchive_aris:Equipment"
+    ]
+  },
+  "BlueArchive_Aris:CoveredKnifeSwitch": {
+    "NAME": "Covered Knife Switch",
+    "FLAVOR": "\"No! Aris! If you turn on the microwave, hair dryer and air conditioner at the same time!\"",
+    "DESCRIPTIONS": [
+      "Whenever #ybluearchive_aris:Overload is activated, Gain #b",
+      " #yBlock."
+    ]
+  },
+  "BlueArchive_Aris:Gameboy": {
+    "NAME": "Gameboy",
+    "FLAVOR": "You can easily play the game anytime, anywhere.",
+    "DESCRIPTIONS": [
+      "Upon pick up, Reduce your Max HP by #r",
+      "%. At the end of combat, heal all of your HP."
+    ]
+  }
+}
