@@ -88,7 +88,7 @@
   },
   "BlueArchive_Aris:SavePoint": {
     "NAME": "Save Point",
-    "DESCRIPTION": "When you would die, heal to !M! once."
+    "DESCRIPTION": "When you would die, Heal to !M! once."
   },
   "BlueArchive_Aris:Glitch": {
     "NAME": "Glitch",
@@ -104,11 +104,11 @@
   },
   "BlueArchive_Aris:CreatedApotheosis": {
     "NAME": "Artificial Apotheosis",
-    "DESCRIPTION": "Upgrade your !M! cards for the rest of combat. NL Can be upgraded any number of times. NL Exhaust."
+    "DESCRIPTION": "Upgrade your !M! cards for the rest of combat. NL Can be Upgraded any number of times. NL Exhaust."
   },
   "BlueArchive_Aris:Autofire": {
     "NAME": "Autofire",
-    "DESCRIPTION": "Deal !D! damage. NL returns all cards containing \"Strike\" from the Discard Pile into your hand. NL It costs 0 this turn."
+    "DESCRIPTION": "Deal !D! damage. NL Returns ALL cards containing \"Strike\" from the Discard Pile into your hand. NL It costs 0 this turn."
   },
   "BlueArchive_Aris:CheatCode": {
     "NAME": "Cheat Code",
@@ -179,8 +179,8 @@
   },
   "BlueArchive_Aris:Grinding": {
     "NAME": "Grinding",
-    "DESCRIPTION": "Draw !M! Cards. NL BlueArchive_Aris:Quest: Owns 500 golds. NL Reward: *P2W *Sword",
-    "UPGRADE_DESCRIPTION": "Draw !M! Cards. NL BlueArchive_Aris:Quest: Owns 500 golds. NL Reward: *P2W *Sword+",
+    "DESCRIPTION": "Draw !M! Cards. NL BlueArchive_Aris:Quest: Owns 500 gold. NL Reward: *P2W *Sword",
+    "UPGRADE_DESCRIPTION": "Draw !M! Cards. NL BlueArchive_Aris:Quest: Owns 500 gold. NL Reward: *P2W *Sword+",
     "EXTENDED_DESCRIPTION": [
       " NL (",
       " left.)"
@@ -188,7 +188,7 @@
   },
   "BlueArchive_Aris:ExecutionSword": {
     "NAME": "P2W Sword",
-    "DESCRIPTION": "BlueArchive_Aris:Reward NL Deal damage equal to 1/10 of golds.",
+    "DESCRIPTION": "BlueArchive_Aris:Reward NL Deal damage equal to 1/10 of gold.",
     "UPGRADE_DESCRIPTION": " NL (Deal !D! damage.)"
   },
   "BlueArchive_Aris:Diet": {
@@ -255,7 +255,7 @@
   },
   "BlueArchive_Aris:SwordOfHero": {
     "NAME": "Sword of Hero",
-    "DESCRIPTION": "BlueArchive_Aris:Output. BlueArchive_Aris:Reward. BlueArchive_Aris:Equipment: Hero NL BlueArchive_Aris:ClassChange: Gain !M! BlueArchive_Aris:Reactor NL BlueArchive_Aris:Job *Effect: Whenever you play an Skill, NL Take a *Sword *Beam."
+    "DESCRIPTION": "BlueArchive_Aris:Output. BlueArchive_Aris:Reward. NL BlueArchive_Aris:Equipment: Hero NL BlueArchive_Aris:ClassChange: Gain !M! BlueArchive_Aris:Reactor NL BlueArchive_Aris:Job *Effect: Whenever you play an Skill, NL Take a *Sword *Beam."
   },
   "BlueArchive_Aris:SwordBlast": {
     "NAME": "Sword Beam",
@@ -283,8 +283,8 @@
   },
   "BlueArchive_Aris:DailyQuest": {
     "NAME": "Daily Quest",
-    "DESCRIPTION": "Deal !D! damage. NL BlueArchive_Aris:Quest: Complete 3 battles. NL Reward: Heal !M! HP, *Daily *Quest",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL BlueArchive_Aris:Quest: Complete 3 battles. NL Reward: Heal !M! HP, 50 golds, *Daily *Quest",
+    "DESCRIPTION": "Deal !D! damage. NL BlueArchive_Aris:Quest: Complete 3 battles. NL Reward: Heal !M! HP. *Daily *Quest.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL BlueArchive_Aris:Quest: Complete 3 battles. NL Reward: Heal !M! HP. 50 gold. *Daily *Quest.",
     "EXTENDED_DESCRIPTION": [
       " NL (",
       " left.)"
@@ -292,8 +292,8 @@
   },
   "BlueArchive_Aris:Thoughtsteal": {
     "NAME": "Thoughtsteal",
-    "DESCRIPTION": "add !M! Random cards from different characters. NL Taken cards cost 1 less for this turn and gain Exhaust.",
-    "UPGRADE_DESCRIPTION": "add !M! Random cards from different characters. NL Taken cards get Exhaust. NL ALL other Character Cards in your hand cost 1 less for this turn.",
+    "DESCRIPTION": "Add !M! Random cards from other characters. NL Taken cards cost 1 less for this turn and gain Exhaust.",
+    "UPGRADE_DESCRIPTION": "Add !M! Random cards from other characters. NL Taken cards get Exhaust. NL ALL other character cards in your hand cost 1 less for this turn.",
     "EXTENDED_DESCRIPTION": [
       "Ethereal. NL ",
       " NL Exhaust. "
@@ -305,7 +305,7 @@
   },
   "BlueArchive_Aris:ItemCopyBug": {
     "NAME": "Item Copy Bug",
-    "DESCRIPTION": "Take Copies of all cards in your hands except BlueArchive_Aris:Reward cards. Exhaust."
+    "DESCRIPTION": "Take copies of ALL cards in your hands except BlueArchive_Aris:Reward cards. Exhaust."
   },
   "BlueArchive_Aris:BFStrike": {
     "NAME": "BF Strike",
@@ -317,15 +317,15 @@
   },
   "BlueArchive_Aris:EnergyDischarge": {
     "NAME": "Energy Discharge",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL energy becomes 0."
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Energy becomes 0."
   },
   "BlueArchive_Aris:SystemOverload": {
     "NAME": "System Overload",
-    "DESCRIPTION": "All cards gain NL \" BlueArchive_Aris:Overload: Exhaust. Gain !M! Block. \" this turn."
+    "DESCRIPTION": "ALL cards gain NL \" BlueArchive_Aris:Overload: Exhaust. Gain !M! Block. \" this turn."
   },
   "BlueArchive_Aris:Ranker": {
     "NAME": "Ranker",
-    "DESCRIPTION": "Deal !D! damage. NL If this card is the only Rare card, its base cost is 2. NL if this card is the only Attack, its base cost is 0."
+    "DESCRIPTION": "Deal !D! damage. NL If this card is the only Rare, Its base cost is 2. NL If only Attack, Its base cost is 0."
   },
   "BlueArchive_Aris:CS": {
     "NAME": "Finishing Blow",
@@ -374,12 +374,12 @@
   },
   "BlueArchive_Aris:DevilYuuka": {
     "NAME": "Devil Yuuka",
-    "DESCRIPTION": "BlueArchive_Aris:Equipment: Devil NL BlueArchive_Aris:ClassChange: Gives !M! Strength and Dexterity to this BlueArchive_Aris:Equipment. NL BlueArchive_Aris:Job *Effect: At the end of your turn, lose !BlueArchive_Aris:M! Strength and Dexterity from this BlueArchive_Aris:Equipment."
+    "DESCRIPTION": "BlueArchive_Aris:Equipment: Devil NL BlueArchive_Aris:ClassChange: Add !M! Strength NL and Dexterity to this card. NL BlueArchive_Aris:Job *Effect: At the end of your turn, lose !BlueArchive_Aris:M! Strength and Dexterity from this card."
   },
   "BlueArchive_Aris:MomoiAppear": {
     "NAME": "Momoi Appear",
-    "DESCRIPTION": "Create a card. NL If you take card, Exhaust this card, NL if you don't, next time it's better.",
-    "UPGRADE_DESCRIPTION": "Innate NL Create a card. NL If you take card, Exhaust this card, NL if you don't, next time it's better.",
+    "DESCRIPTION": "Create a card. NL If you take card, Exhaust this card, NL If you don't, next time it's better.",
+    "UPGRADE_DESCRIPTION": "Innate NL Create a card. NL If you take card, Exhaust this card, NL If you don't, next time it's better.",
     "EXTENDED_DESCRIPTION": [
       " NL (refuse ",
       " times.)"
@@ -446,8 +446,8 @@
       "Gain [E] [E] . ",
       "Next turn, gain [E] . ",
       "Next turn, gain [E] [E] . ",
-      "Exhaust all cards in your hand. ",
-      "Discard all cards in your hand. ",
+      "Exhaust ALL cards in your hand. ",
+      "Discard ALL cards in your hand. ",
       "Add a random Attack to your hand. It costs 0 this turn. ",
       "Add a random Skill to your hand. It costs 0 this turn. ",
       "Add a random Power to your hand. It costs 0 this turn. ",
@@ -468,7 +468,7 @@
       "Add a *Wound into your discard pile. ",
       "Upgrade a random card in your deck. ",
       "Gain %1 Max HP. ",
-      "Gain %1 golds. ",
+      "Gain %1 gold. ",
       "Shuffle an *Omega into draw pile. ",
       "Die next turn. ",
       "Retain your hand this turn. ",

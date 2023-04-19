@@ -56,9 +56,7 @@ public class ArisFormPower extends AbstractPower {
         AbstractMonster mo;
         while(var3.hasNext()) {
             mo = (AbstractMonster)var3.next();
-            IntangiblePower ip = new IntangiblePower(mo, 1);
-            ReflectionHacks.setPrivate(ip, IntangiblePower.class, "justApplied", false);
-            this.addToBot(new ApplyPowerAction(mo, AbstractDungeon.player, ip));
+            this.addToBot(new ApplyPowerAction(mo, AbstractDungeon.player, new IntangiblePlayerPower(mo, 1)));
         }
 
         if (this.amount == 0) {
