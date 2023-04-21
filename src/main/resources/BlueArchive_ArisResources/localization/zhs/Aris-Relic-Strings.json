@@ -1,84 +1,84 @@
 {
   "BlueArchive_Aris:ArisBaseRelic": {
-    "NAME": "Enhanced Magic!",
-    "FLAVOR": "\"I believe magic exists in Kivotos as well.\"",
+    "NAME": "强化魔法！",
+    "FLAVOR": "\"我相信在基沃托斯也存在魔法。\"",
     "DESCRIPTIONS": [
-      "Gain #b",
-      " #ybluearchive_aris:Reactor the first time #ybluearchive_aris:ClassChange is triggered in each battle"
+      "每场战斗首次触发 #ybluearchive_aris:转职 时，获得 #b",
+      " 层 #ybluearchive_aris:充能 。"
     ]
   },
   "BlueArchive_Aris:ArisBaseRelicPlus": {
-    "NAME": "Enhanced Magic!+",
+    "NAME": "强化魔法！+",
     "FLAVOR": "\"It must. How else could you make me so happy, Sensei?\"",
     "DESCRIPTIONS": [
-      "Replaced with the #rEnhanced #rMagic!. Gain #b",
-      " #ybluearchive_aris:Reactor the first time #ybluearchive_aris:ClassChange is triggered in each turn"
+      "每回合首次触发 #ybluearchive_aris:转职 时，获得 #b",
+      " 层 #ybluearchive_aris:充能 。"
     ]
   },
   "BlueArchive_Aris:HPPotion": {
-    "NAME": "HP Potion",
-    "FLAVOR": "Strawberry flavor added.",
+    "NAME": "HP药水",
+    "FLAVOR": "添加了草莓口味。",
     "DESCRIPTIONS": [
-      "At the end of battle, Heal HP equal to the number of time you lose HP in combat."
+      "战斗结束时，回复本场战斗失去生命次数的生命值。"
     ]
   },
   "BlueArchive_Aris:CopyCat": {
-    "NAME": "CopyCat",
-    "FLAVOR": "It is a giant Wavecat doll that is being sold with great acclaim.",
+    "NAME": "模仿者",
+    "FLAVOR": "一只备受好评的卷毛猫玩偶。",
     "DESCRIPTIONS": [
-      "Choose a random character and get that character's starting relic. Combat reward screens now contain selected character cards and choose 1 more card.",
-      "Choose a character.",
-      "Take the character's starting relic.",
-      "Gain the following character's card rewards, starting relic: NL ",
-      "Take the character's starting relic.",
-      "Get the combat reward for that character: #r",
-      ". On Card Reward screens, choose 1 more card."
+      "选择任意一名角色并获得其初始遗物，战斗奖励会额外包含一张该角色的牌。",
+      "选择一名角色。",
+      "获得该角色的初始遗物。",
+      "初始遗物: NL ",
+      "获得该角色的初始遗物。",
+      "战斗奖励: #r",
+      " 。奖励界面会额外包含一张该角色的牌。"
     ]
   },
   "BlueArchive_Aris:TASRelic": {
     "NAME": "TAS",
-    "FLAVOR": "\"If you jump there and dash while crouching, you can skip the entire section.\"",
+    "FLAVOR": "\"如果你跳到那里，再蹲下疾跑，这部分就可以逃课了。\"",
     "DESCRIPTIONS": [
-      "Upon pick up, Every #ybluearchive_aris:Quest Card in your deck turns into an #yUpgraded #ybluearchive_aris:Reward."
+      "拾起时，牌组中的所有 #ybluearchive_aris:任务 牌直接变为 #已升级 的 #ybluearchive_aris:奖励 。"
     ]
   },
   "BlueArchive_Aris:Battery": {
-    "NAME": "Battery",
-    "FLAVOR": "\"Aris doesn't eat batteries!\"",
+    "NAME": "电池",
+    "FLAVOR": "\"爱丽丝不吃电池！\"",
     "DESCRIPTIONS": [
-      "Gives an additional #b",
-      " #ybluearchive_aris:Shock the first time #ybluearchive_aris:Shock is applied to an enemy without #ybluearchive_aris:Shock."
+      "每个敌人首次被施加 #ybluearchive_aris:触电 时，额外提高 #b",
+      " 层。"
     ]
   },
   "BlueArchive_Aris:GameManual": {
-    "NAME": "Game Manual",
-    "FLAVOR": "It is a manual for a game that has a reputation for being very difficult to break without a manual.",
+    "NAME": "游戏攻略",
+    "FLAVOR": "一份游戏攻略。这款游戏以不看攻略就无法通关著称。",
     "DESCRIPTIONS": [
-      "At the start of the turn, half of your #yBlock is converted to #ybluearchive_aris:Restore."
+      "回合开始时，将你 #y格挡 值的一半转化为 #ybluearchive_aris:能量盾 。"
     ]
   },
   "BlueArchive_Aris:StartingEquipment": {
-    "NAME": "Starting Equipment",
-    "FLAVOR": "It's a piece of equipment that's given away for free in the starting town.",
+    "NAME": "起步装备",
+    "FLAVOR": "在新手村免费获得的装备。",
     "DESCRIPTIONS": [
-      "Gives #b",
-      " #yStrength and #yDexterity to the first #ybluearchive_aris:Equipment per combat. This effect only applies while wearing the #ybluearchive_aris:Equipment"
+      "给每场战斗首次打出的 #ybluearchive_aris:装备 牌附加 #b",
+      " 点 #y力量 和 #y敏捷 。仅在穿着对应 #ybluearchive_aris:装备 时有效。"
     ]
   },
   "BlueArchive_Aris:CoveredKnifeSwitch": {
-    "NAME": "Covered Knife Switch",
-    "FLAVOR": "\"No! Aris! If you turn on the microwave, hair dryer and air conditioner at the same time!\"",
+    "NAME": "隐蔽刀闸",
+    "FLAVOR": "\"不！爱丽丝！不要同时打开微波炉、电吹风和空调！\"",
     "DESCRIPTIONS": [
-      "Whenever #ybluearchive_aris:Overload is activated, Gain #b",
-      " #yBlock."
+      "每当触发 #ybluearchive_aris:超荷，获得 #b",
+      " 点 #y格挡 。"
     ]
   },
   "BlueArchive_Aris:Gameboy": {
-    "NAME": "Gameboy",
-    "FLAVOR": "You can easily play the game anytime, anywhere.",
+    "NAME": "GB游戏机",
+    "FLAVOR": "你可以随时随地畅玩游戏。",
     "DESCRIPTIONS": [
-      "Upon pick up, Reduce your Max HP by #r",
-      "%. At the end of combat, heal all of your HP."
+      "拾起时，将你的最大生命值降低 #r",
+      "% 。战斗结束时，回复所有生命。"
     ]
   }
 }

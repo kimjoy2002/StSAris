@@ -1,89 +1,89 @@
 [
   {
-    "PROPER_NAME": "ClassChange",
+    "PROPER_NAME": "转职",
     "NAMES": [
-      "classchange",
-      "classchanges",
-      "classchanged",
-      "classchanging"
+      "转职",
+      "转职",
+      "转职",
+      "转职"
     ],
-    "DESCRIPTION": "This effect is triggered when the Job is changed."
+    "DESCRIPTION": "当 职业 发生变化时，触发效果。"
   },
   {
-    "PROPER_NAME": "Job",
+    "PROPER_NAME": "职业",
     "NAMES": [
-      "job"
+      "职业"
     ],
-    "DESCRIPTION": "It takes Job Effect while Equipment is equipped. You can only have one Job at a time."
+    "DESCRIPTION": "穿戴对应 装备 时触发效果。一次只能拥有一种 职业 。"
   },
   {
-    "PROPER_NAME": "Reactor",
+    "PROPER_NAME": "充能",
     "NAMES": [
-      "reactor"
+      "充能"
     ],
-    "DESCRIPTION": "Instead of lacking [E] , use the card by consuming Reactor. It disappears at the end of your turn."
+    "DESCRIPTION": "当 [E] 不足时，可以消耗等量 充能 代替。回合结束时消失。"
   },
   {
-    "PROPER_NAME": "Output",
+    "PROPER_NAME": "产能",
     "NAMES": [
-      "output",
-      "outputs"
+      "产能",
+      "产能"
     ],
-    "DESCRIPTION": "Reactor is not available when using this card."
+    "DESCRIPTION": "这张牌的耗能不能用 充能 代替。"
   },
   {
-    "PROPER_NAME": "Overload",
+    "PROPER_NAME": "超荷",
     "NAMES": [
-      "overload",
-      "overloads"
+      "超荷",
+      "超荷"
     ],
-    "DESCRIPTION": "When used, if the remaining [E] is 0, the effect is activated."
+    "DESCRIPTION": "打出后如果没有剩余的 [E] ，触发效果。"
   },
   {
-    "PROPER_NAME": "Equipment",
+    "PROPER_NAME": "装备",
     "NAMES": [
-      "equipment",
-      "equipments"
+      "装备",
+      "装备"
     ],
-    "DESCRIPTION": "When used, it is attached to the character and changes Jobs. If you already have Equipment, discard the old Equipment."
+    "DESCRIPTION": "打出时，这张牌会附在角色身上并改变其 职业 。如果已经有了 职业 ，旧的 装备 会被丢进弃牌堆。"
   },
   {
-    "PROPER_NAME": "Quest",
+    "PROPER_NAME": "任务",
     "NAMES": [
-      "quest",
-      "quests"
+      "任务",
+      "任务"
     ],
-    "DESCRIPTION": "When you complete a quest, it turns into a Reward card."
+    "DESCRIPTION": "当你完成 任务 时，这张牌会变为 奖励 牌。"
   },
   {
-    "PROPER_NAME": "Shock",
+    "PROPER_NAME": "触电",
     "NAMES": [
-      "shock",
-      "shocked"
+      "触电",
+      "触电"
     ],
-    "DESCRIPTION": "Each time you are attacked, you lose HP equal to the Shock value and decrease it by 1."
+    "DESCRIPTION": "每当受到攻击时，失去 触电 层数的生命并降低1层。"
   },
   {
-    "PROPER_NAME": "PermaExhaust",
+    "PROPER_NAME": "永逝",
     "NAMES": [
-      "permaexhaust"
+      "永逝"
     ],
-    "DESCRIPTION": "Permanently removed from the deck."
+    "DESCRIPTION": "移出牌组。"
   },
   {
-    "PROPER_NAME": "Reward",
+    "PROPER_NAME": "奖励",
     "NAMES": [
-      "reward",
-      "rewards"
+      "奖励",
+      "奖励"
     ],
-    "DESCRIPTION": "Reward cards cannot be obtained normally. You can get it by completing a Quest."
+    "DESCRIPTION": " 奖励 牌只能通过完成任务获取。"
   },
   {
-    "PROPER_NAME": "Restore",
+    "PROPER_NAME": "能量盾",
     "NAMES": [
-      "restore",
-      "restores"
+      "能量盾",
+      "能量盾"
     ],
-    "DESCRIPTION": "At the end of your turn, it is converted to Block."
+    "DESCRIPTION": "回合结束时，获得等量 格挡 。"
   }
 ]

@@ -1,32 +1,32 @@
 {
   "BlueArchive_Aris:EquipHotkeyAction": {
     "TEXT": [
-      "Choose an Equipment card to add into your hand"
+      "选择一张装备牌加入手牌"
     ]
   },
   "BlueArchive_Aris:SkipCardUI": {
     "TEXT": [
-      "Skip(Quest progress)"
+      "跳过(任务需求)"
     ]
   },
   "BlueArchive_Aris:PurifyCardAction": {
     "TEXT": [
-      "Choose a card to Exhaust permanently"
+      "选择一张牌移除"
     ]
   },
   "BlueArchive_Aris:GetPowerAction": {
     "TEXT": [
-      "Choose a Power to add into your hand"
+      "选择一张能力牌加入手牌"
     ]
   },
   "BlueArchive_Aris:TutorialAction": {
     "TEXT": [
-      "Choose a card that will reduce cost."
+      "选择一张牌降低耗能"
     ]
   },
   "BlueArchive_Aris:BlacksmithAction": {
     "TEXT": [
-      "I don't have any Equipment"
+      "我没有任何装备。"
     ]
   }
 }

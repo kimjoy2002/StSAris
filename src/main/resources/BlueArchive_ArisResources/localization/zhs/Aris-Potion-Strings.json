@@ -1,10 +1,10 @@
 {
 "BlueArchive_Aris:ChargePotion": {
-        "NAME": "Reactor Potion",
-        "DESCRIPTIONS": ["Gain #b", " #yReactor."]
+        "NAME": "充能药水",
+        "DESCRIPTIONS": ["获得 #b", " 层 #y充能 。"]
 },
 "BlueArchive_Aris:ShockPotion": {
-        "NAME": "Shock Potion",
-        "DESCRIPTIONS": ["Apply #b", " #yShock."]
+        "NAME": "触电药水",
+        "DESCRIPTIONS": ["施加 #b", " 层 #y触电 。"]
 }
 }

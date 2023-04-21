@@ -1,86 +1,86 @@
 {
   "BlueArchive_Aris:SaibaMidoriEvent": {
-    "NAME": "Game Development Department!",
+    "NAME": "游戏开发部!",
     "DESCRIPTIONS": [
-      "When you open the door of the Millennium Game Development Department and enter, Midori, the younger sister of Saiba's twin sisters, is there. NL \"Can you help me develop a game? How about drawing a picture?\" NL If you want, you can help her with her illustrator work.",
-      "\"Grab this pen and draw freely.\" NL You hold the pen in your hand.",
-      "\"This is enough. It's just an illustration for now, but it'll be a good game if it's refined a bit more.\" NL You get the still unfinished card and go on your way. Can it be completed someday?",
-      "\"Hmm. Is this the empty beauty?\" NL Looks don't matter if it's a really great game. NL ~MAYBE?~",
-      "\"These ~beautiful~ ~lines...~ I'm impressed!\" NL Receive a card featuring your masterpiece. NL When it's done, it'll be a really great game.",
-      "Say you don't have a talent for drawing and go on your way.",
-      "\"Oh, are you taking that game? The last #gMillennium #gPrice was great.\" NL I'm going to take the winner of the last contest made by the game development department. NL Would this help?"
+      "你走进一间门上写着游戏开发部的房间，发现才羽家的妹妹——小绿正在房间里。 NL \"你可以来帮我开发游戏吗？来画画吧？\" NL 如果你愿意，你可以为她的游戏提供插画。",
+      "\"来，用这支笔自由发挥吧。\" NL 你握起了笔。",
+      "\"这就足够了。虽然现在只是一幅画，但经过不断提炼后它会变成一款好游戏的。\" NL 你拿着未完成的卡牌离开了。会有完成的那一天吗？",
+      "\"唔，这就是空白的美吗？\" NL 好游戏并不需要华丽的画面。 NL ~大概？~",
+      "\"看看这 ~优美的~ ~线条~ 太迷人了！\" NL 你拿上画好的杰作。 NL 如果完成了，一定会是一款非常棒的游戏。",
+      "你告诉她你没有画画的天赋，然后继续你的旅途。",
+      "\"啊，你要那款游戏吗？上一届 #g千年竞赛 太精彩了。\" NL 你决定拿走由游戏部开发的上届竞赛的优胜作品。 NL 或许可以派上用场？"
     ],
     "OPTIONS": [
-      "[Draw a Picture] #gObtain #ga #gspecial #gcard.",
-      "[Leave]",
-      "Draw your own card images!",
-      "[Take a Game] Get a card made in the past."
+      "[画一张] #g获得一张特殊卡牌。 ",
+      "[离开]",
+      "画一张属于自己的卡图吧！",
+      "[玩游戏] 获得过去制作的卡牌。 "
     ]
   },
   "BlueArchive_Aris:SaibaMomoiEvent": {
-  "NAME": "Day of Game Development Department.",
+  "NAME": "游戏开发部的一天",
   "DESCRIPTIONS": [
-    "When you open the door of the Millennium Game Development Department and enter, Momoi, the older sister of the Saiba twins, is there. NL \"I just needed someone to play with! please sit down!\" NL Hands over the controller of the fighting game. NL There must be work to be done, right?",
-    "\"what? bet? I won't lose!\" NL You played a fighting game with Momoi, and finally defeated Momoi.. NL \"Huh, I lost? How regrettable!\" NL Having won the bet, you took your gold and got plenty of rest while playing. NL \"I'll win next time!\"",
-    "\"what? bet? I won't lose!\" NL You play a fighting game with Momoi, but you give Momoi the final round due to a ridiculous mistake. NL \"I win! hehe.\" NL Even though you lost money on bets, you took a well-deserved break from playing. NL \"Come next time!\"",
-    "\"Not bad. Well done, right?\" NL You enjoyed the game whether you won or lost. NL After a fun game with Momoi, say goodbye and leave the Game Development Department behind.",
-    "Did you finish writing the story? NL @\"Gyaaaahhhh!!!\"@ NL Momoi's screams spread throughout the room. NL \nThe completion of the game requires planning by scenario writer Momoi.",
-    "\"How about this? it's my masterpiece!\" NL Receive a game scenario from Momoi. Take this?",
-    "\"Then how about this! Would you like this?\" NL Receive a game scenario from Momoi. Take this?",
-    "\"You're picky! ok this time it's this one!\" NL Receive a game scenario from Momoi. Take this?",
-    "\"Great! Now that you've decided on the scenario, let's play the game!\" NL You reluctantly fit into the game together. NL The game development has progressed quite a bit with this."
+    "你走进一间门上写着游戏开发部的房间，发现才羽家的姐姐——桃井正在房间里。 NL \"我需要人陪我玩！来坐下！\" NL 她递给你一个格斗游戏手柄。 NL 看来又有活要干了。",
+    "\"要打赌吗？我不会输的！\" NL 你和桃井一起玩格斗游戏，并最终击败了她.. NL \"什么，我输了？可恶啊！\" NL 你取得了胜利，不仅赢得了赌注，同时也让自己爽了一把。 NL \"下次我可不会输了！\"",
+    "\"要打赌吗？我不会输的！\" NL 你和桃井一起玩格斗游戏，但在最终局一次愚蠢的失误导致你输掉了比赛。 NL \"我赢了！哼哼哼~\" NL 虽然你输了钱，不过还是挺爽快的。 NL \"下次再来吧~\"",
+    "\"不错。还算好，对吧？\" NL 不论输赢，你享受了玩游戏的时光。 NL 和桃井一起玩了一会后，你离开了游戏开发部。",
+    "你故事写完了吗？ NL @\"呀——！！\"@ NL 桃井的尖叫在房间里回荡。 NL \n要完成游戏制作需要编剧桃井的创作。",
+    "\"这个如何？我的得意之作！\" NL 收到了桃井的剧本。要选择这个吗？",
+    "\"那这个如何！你喜欢吗？\" NL 收到了桃井的剧本。要选择这个吗？",
+    "\"你可真挑剔！那这样呢？\" NL 收到了桃井的剧本。要选择这个吗？",
+    "\"太好了！剧本写完了，我们来玩游戏吧！\" NL 你被硬拉着和她一起玩游戏。 NL 游戏开发进度推进了不少。"
   ],
   "OPTIONS": [
-    "[Make a Bet] #y",
-    " #yGold: #gHeal #g",
-    " #gHP. #g60%: #gGain #g",
-    " #gGold.",
-    "[Enjoy the game] #gHeal #g",
-    " #gHP.",
-    "[Pressure] Improve #gMillennium #gQuest.",
-    "[Check the Card]",
-    "[Refuse] #y",
-    " #yGold: Change to a new card effect.",
-    "[Approve] Lock the #gMillennium #gQuest to this effect.",
-    "[Leave]",
-    "[Locked] Requires: ",
-    " Gold.",
-    "[Locked] Requires: Uncompleted Millennium Quest."
+    "[打赌] #y",
+    " #y金币 : #g回复 #g",
+    " #g生命。 #g60%: #g获得 #g",
+    " #g金币。",
+    "[游玩] #g回复 #g",
+    " #g生命。 ",
+    "[催稿] 改进 #g千年斗恶龙 卡牌。",
+    "[查看卡牌]",
+    "[拒绝] #y",
+    " #y金币 :换一组卡牌效果。",
+    "[接受] 将当前效果应用到 #g千年斗恶龙 卡牌。",
+    "[离开]",
+    "[锁定] 需求: ",
+    " 金币。",
+    "[锁定] 需求:未完成的千年斗恶龙。"
   ]
   },
   "BlueArchive_Aris:CaveofClassChangeEvent": {
-    "NAME": "Cave of Class Change",
+    "NAME": "转职洞穴",
     "DESCRIPTIONS": [
-      "Upon entering the cave, a voice echoes from the depths of the cave.. NL \" ~This~ ~is~ ~the~ ~cave~ ~of~ ~class~ ~change,~ ~choose~ ~the~ ~job~ ~you~ ~want~ \"",
-      "With a new job, you leave the cave..",
-      "You are satisfied with your current job and leave the cave."
+      "你进入洞穴，一个声音从深处传来.. NL \" ~这里是转职洞穴，选择你想要的职业吧~ \"",
+      "你带着新职业离开了洞穴..",
+      "你很满意目前的职业，直接离开了。"
     ],
     "OPTIONS": [
-      "[Warrior] Remove #rALL #rEquipment #rcards. Gain #gMask #gof #gWarrior.",
-      "[Rouge] Remove #rALL #rEquipment #rcards. Gain #gRogue's #gDagger.",
-      "[Idol] Remove #rALL #rEquipment #rcards. Gain #gIdol's #gRibbon.",
-      "[Wizard] Remove #rALL #rEquipment #rcards. Gain #gWizard #gHat.",
-      "[Leave]"
+      "[战士] 移除 #r所有装备牌 。获得 #g战士面具 。",
+      "[猎人] 移除 #r所有装备牌 。获得 #g猎人匕首 。",
+      "[偶像] 移除 #r所有装备牌 。获得 #g偶像缎带 。",
+      "[法师] 移除 #r所有装备牌 。获得 #g法师帽子 。",
+      "[离开]"
     ]
   },
   "BlueArchive_Aris:HanaokaYuzuEvent": {
-    "NAME": "Millennium Price",
+    "NAME": "千年竞赛",
     "DESCRIPTIONS": [
-      "When you open the door of the Millennium Game Development Department and enter, there is Yuzu Hanaoka, the general manager of the Game Development Department. NL \" #yMillennium #yPrice starts soon! Are you ready?\" NL Tune your TV channels to #yMillennium #yPrice, a contest held by the Millennium Science School.",
-      "Due to the delay in game development, you decide to watch this contest. NL Glasses with a self-destruct button? Dumbbells that can be used like grenades? NL It's still hard to understand science, but it's a good reference.",
-      "The works of various clubs were introduced and the long-awaited time for the awards ceremony came.. NL \"i... I hope we get good results!!\" NL ~drumroll~",
-      "\"we... We did it! We're @winning!@ \" NL Surprisingly, the game made with everyone wins the #yMillennium #yPrice. NL \nThis is the fruit of the efforts of everyone in the game development department.",
-      "You decide to decorate the club with a game that everyone puts effort into. NL It would be nice to get everyone together and try again later. NL (Saved Millennium Quest Cards can be obtained through the Act 1 event at Ascension 0.)"
+      "你走进一间门上写着游戏开发部的房间，发现部长——花冈柚子正在房间里。 NL \" #y千年竞赛 马上就要开始了，你准备好了吗？\" NL 你将电视切换到 #y千年竞赛 频道，这是由千年科学学园举办的一项赛事。",
+      "由于游戏开发进度跟不上，你决定观赛。 NL 带自毁按钮的眼镜？能当手榴弹用的哑铃？ NL 尽管都是些难以理解的科技，但仍有一定参考价值。",
+      "经过许多参赛部门的作品介绍后，终于来到了期待已久的颁奖环节.. NL \"希...希望我们能取得好成绩！！\" NL ~咚 咚 咚~",
+      "\"我..我们做到了！我们 @获胜了！@ \" NL 大家做的游戏惊奇地赢得了 #y千年竞赛 大奖。 NL \n这是游戏开发部所有人的努力成果。",
+      "你决定用大家的劳动成果为俱乐部添点砖。 NL 这应该对后来的人有所帮助。 NL (保存的千年斗恶龙卡牌可以在进阶0第一幕获得。)"
     ],
     "OPTIONS": [
-      "[Watch the Contest] Choose #gother #gcharacter's #gRare #gCard #gto #gobtain. ",
-      "[Join the Contest] #gObtain #gRandom #gRare #gRelic and #gGain #g",
-      " #gGold. ",
-      "[Locked] Requires: Completed Millennium Quest.",
-      "[Save] Save winning #gMillennium #gQuest Card.",
-      "[Save] Save winning #gMillennium #gQuest Card. (Existing card will be erased.)",
-      "[Leave]",
-      "[Continue]"
+      "[观赛] 选择 #g获得一张其他角色的稀有牌。 ",
+      "[参赛] #g获得一个随机稀有遗物和 #g",
+      " #g金币。 ",
+      "[锁定] 需求:已完成的千年斗恶龙。",
+      "[保存] 保存 #g千年斗恶龙 卡牌。",
+      "[保存] 保存 #g千年斗恶龙 卡牌(已保存的卡牌会被覆盖)。",
+      "[离开]",
+      "[继续]"
     ]
   }
 }

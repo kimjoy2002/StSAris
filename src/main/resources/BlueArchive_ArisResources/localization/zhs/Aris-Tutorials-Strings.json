@@ -1,8 +1,8 @@
 {
   "BlueArchive_Aris:ArisTutorial": {
     "TEXT": [
-      "Aris can use #yEquipment cards to equip #yEquipment. NL When you use an #yEquipment card, Aris changes to the #yJob writed on the card. NL You can only have one #yJob at a time, so if you use 2 #yEquipment cards, NL Remove and discard the equipped #yEquipment card.",
-      "As long as you have a #yJob, #yJob #yEffect are applied. NL Also, when changing #yJob, #yClassChange effect is activated. NL Focus on one #yJob or move between different #yJob to your advantage."
+      "爱丽丝可以打出 #y装备牌 以 #y装备 武器。 NL 每当打出 #y装备 牌，爱丽丝会转变为对应的 #y职业 。 NL 一次只能拥有一种职业，如果再打出 #y装备 牌，原本的 #y装备 会丢进弃牌堆。",
+      "拥有 #y职业 时， #y职业效果 会一直生效。 NL 当 #y职业 发生变化时，会触发 #y转职 效果。 NL 根据战况可以采用单职业或转职等不同策略。"
     ],
     "LABEL": [
       "Next",
