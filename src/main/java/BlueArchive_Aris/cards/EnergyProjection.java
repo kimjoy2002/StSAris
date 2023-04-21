@@ -57,13 +57,14 @@ public class EnergyProjection extends OverloadCard {
 
     public void calculateCardDamage(AbstractMonster mo) {
         super.calculateCardDamage(mo);
+        int plus_damage = this.damage;
         if (EnergyPanel.totalCount <= this.costForTurn) {
-            this.damage += this.baseDamage;
+            this.damage += plus_damage;
 
             if(AbstractDungeon.player.hasPower(BalanceBrokenPower.POWER_ID)) {
                 AbstractPower power = AbstractDungeon.player.getPower(BalanceBrokenPower.POWER_ID);
                 for(int i = 0; i < power.amount; i++) {
-                    this.damage += this.baseDamage;
+                    this.damage += plus_damage;
                 }
             }
         }

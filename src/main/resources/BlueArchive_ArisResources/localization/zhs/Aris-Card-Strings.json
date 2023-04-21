@@ -9,7 +9,7 @@
   },
   "BlueArchive_Aris:SuperNova": {
     "NAME": "超新星",
-    "DESCRIPTION": " bluearchive_aris:装备 : AOE DPS NL bluearchive_aris:转职 : 对所有敌人造成 !D! 点伤害。 NL bluearchive_aris:职业 *效果 : 名字中有\"打击\"的牌伤害提高 !M! 点。"
+    "DESCRIPTION": " bluearchive_aris:装备 : AOE dps NL bluearchive_aris:转职 : 对所有敌人造成 !D! 点伤害。 NL bluearchive_aris:职业 *效果 : 名字中有\"打击\"的牌伤害提高 !M! 点。"
   },
   "BlueArchive_Aris:WoodenStick": {
     "NAME": "新手武器",
@@ -141,7 +141,7 @@
   "BlueArchive_Aris:DoubleCharge": {
     "NAME": "双倍充能",
     "DESCRIPTION": "获得当前 bluearchive_aris:充能 层数的 bluearchive_aris:充能 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": "获得当前 [E] 和BlueArchive_Aris:充能 层数总和的 bluearchive_aris:充能 。 NL 消耗 。"
+    "UPGRADE_DESCRIPTION": "获得当前 [E] 和 bluearchive_aris:充能 层数总和的 bluearchive_aris:充能 。 NL 消耗 。"
   },
   "BlueArchive_Aris:NanoMachine": {
     "NAME": "纳米机器",
@@ -255,7 +255,7 @@
   },
   "BlueArchive_Aris:SwordOfHero": {
     "NAME": "英雄之剑",
-    "DESCRIPTION": " bluearchive_aris:产能 。 bluearchive_aris:奖励  bluearchive_aris:装备 :英雄 NL bluearchive_aris:转职 :获得 !M! 层 bluearchive_aris:充能 。 NL bluearchive_aris:职业 *效果 :每当你打出 技能 牌， NL 获得1张 *剑气 。"
+    "DESCRIPTION": " bluearchive_aris:产能 。 bluearchive_aris:奖励 bluearchive_aris:装备 :英雄 NL bluearchive_aris:转职 :获得 !M! 层 bluearchive_aris:充能 。 NL bluearchive_aris:职业 *效果 :每当你打出 技能 牌， NL 获得1张 *剑气 。"
   },
   "BlueArchive_Aris:SwordBlast": {
     "NAME": "剑气",
@@ -284,7 +284,7 @@
   "BlueArchive_Aris:DailyQuest": {
     "NAME": "日常任务",
     "DESCRIPTION": "造成 !D! 点伤害。 NL bluearchive_aris:任务 :完成3场战斗。 NL 奖励:回复 !M! 点生命。获得 *日常任务 。",
-    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL bluearchive_aris:任务 :完成3场战斗。 NL 奖励:回复 !M! 点生命。获得 *日常任务 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL bluearchive_aris:任务 :完成3场战斗。 NL 奖励:回复 !M! 点生命。50 金币。获得 *日常任务 。",
     "EXTENDED_DESCRIPTION": [
       " NL (还剩",
       " 场。)"
