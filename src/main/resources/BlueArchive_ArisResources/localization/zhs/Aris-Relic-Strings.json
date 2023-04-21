@@ -69,7 +69,7 @@
     "NAME": "隐蔽刀闸",
     "FLAVOR": "\"不！爱丽丝！不要同时打开微波炉、电吹风和空调！\"",
     "DESCRIPTIONS": [
-      "每当触发 #ybluearchive_aris:超荷，获得 #b",
+      "每当触发 #ybluearchive_aris:超荷 ，获得 #b",
       " 点 #y格挡 。"
     ]
   },

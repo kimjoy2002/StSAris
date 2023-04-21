@@ -5,6 +5,7 @@ import BlueArchive_Aris.DefaultMod;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DescriptionLine;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
+import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.events.AbstractEvent;
 import com.megacrit.cardcrawl.events.AbstractImageEvent;
@@ -17,6 +18,7 @@ import java.util.List;
 import static BlueArchive_Aris.cards.CustomGameCard.makeCustomCard;
 import static BlueArchive_Aris.DefaultMod.makeEventPath;
 import static com.megacrit.cardcrawl.cards.AbstractCard.TEXT;
+import static com.megacrit.cardcrawl.core.Settings.GameLanguage.ZHS;
 
 public class SaibaMomoiEvent extends AbstractImageEvent {
 
@@ -187,9 +189,9 @@ public class SaibaMomoiEvent extends AbstractImageEvent {
                         for(DescriptionLine iter : current_card.description) {
                             String text_temp =  iter.text;
                             text_temp = text_temp.replace("*", "#y");
-                            text_temp = text_temp.replace("!D!",String.valueOf(current_card.baseDamage));
-                            text_temp = text_temp.replace("!B!",String.valueOf(current_card.baseBlock));
-                            text_temp = text_temp.replace("!M!",String.valueOf(current_card.baseMagicNumber));
+                            text_temp = text_temp.replace(Settings.language==ZHS?" D ":"!D!",String.valueOf(current_card.baseDamage));
+                            text_temp = text_temp.replace(Settings.language==ZHS?"!B!!":"!B!",String.valueOf(current_card.baseBlock));
+                            text_temp = text_temp.replace(Settings.language==ZHS?"!M!!":"!M!",String.valueOf(current_card.baseMagicNumber));
                             text_ += text_temp;
                             text_ += " NL ";
                         }
