@@ -57,16 +57,16 @@ public abstract class QuestCard extends AbstractDynamicCard {
                     }
                 }
             }
+            if(!completeList.isEmpty()) {
+                for(AbstractCard c : completeList) {
+                    ((QuestCard) c).onQuestComplete();
+                }
+            }
             if(!removeList.isEmpty()) {
                 for(AbstractCard c : removeList) {
                     AbstractDungeon.player.masterDeck.removeCard(c);
                 }
                 removeList.clear();
-            }
-            if(!completeList.isEmpty()) {
-                for(AbstractCard c : completeList) {
-                    ((QuestCard) c).onQuestComplete();
-                }
             }
 
         } catch(Exception e) {
