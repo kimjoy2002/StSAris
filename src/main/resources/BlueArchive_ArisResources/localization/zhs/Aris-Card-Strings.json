@@ -34,11 +34,11 @@
     "DESCRIPTION": "获得 !B! 点 格挡 。 NL bluearchive_aris:超荷 :再获得 !B! 点 格挡 。"
   },
   "BlueArchive_Aris:Ouch": {
-    "NAME": "哎哟!",
+    "NAME": "哎哟！",
     "DESCRIPTION": "受到 !M! 点伤害。 NL 抽2张牌。 NL 每次打出这张牌，受到的伤害在本场战斗中提高 !BlueArchive_Aris:M! 点。"
   },
   "BlueArchive_Aris:HailingLight": {
-    "NAME": "光明啊!",
+    "NAME": "光明啊！",
     "DESCRIPTION": " bluearchive_aris:产能 。 NL 获得 !M! 层 bluearchive_aris:充能 。"
   },
   "BlueArchive_Aris:ReactiveArmour": {
@@ -53,7 +53,7 @@
   "BlueArchive_Aris:FullCharging": {
     "NAME": "满载满荷",
     "DESCRIPTION": " bluearchive_aris:产能 。 NL 抽X张牌。 NL 获得X层 bluearchive_aris:充能 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " bluearchive_aris:产能 。 NL 抽X+1张牌。 NL 获得X+1层 bluearchive_aris:充能 。"
+    "UPGRADE_DESCRIPTION": " bluearchive_aris:产能 。 NL 抽X+1张牌。 NL 获得X+1层 bluearchive_aris:充能 。 NL 消耗 。"
   },
   "BlueArchive_Aris:Shock": {
     "NAME": "冲击！",
@@ -74,16 +74,16 @@
     "DESCRIPTION": "施加 !M! 层 虚弱 。 NL 施加 !BlueArchive_Aris:M! 层 bluearchive_aris:触电 。 NL 消耗 。"
   },
   "BlueArchive_Aris:PrismaticBeams": {
-    "NAME": "七彩射线",
-    "DESCRIPTION": "造成 !D! 点伤害。 NL bluearchive_aris:超荷 :将一张伤害提升 !M! 点的带有 虚无 属性的 *七彩射线 加入手牌。 消耗 。",
-    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL bluearchive_aris:超荷 :将一张伤害提升 !M! 点的带有 虚无 属性的 *七彩射线+ 加入手牌。 消耗 。",
+    "NAME": "棱镜射线",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL bluearchive_aris:超荷 :将一张伤害提升 !M! 点的带有 虚无 和 消耗 属性的 *棱镜射线 加入手牌。 消耗 。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL bluearchive_aris:超荷 :将一张伤害提升 !M! 点的带有 虚无 和 消耗 属性的 *棱镜射线+ 加入手牌。 消耗 。",
     "EXTENDED_DESCRIPTION": [
-      " 虚无 。 NL 造成 !D! 点伤害。 NL bluearchive_aris:超荷 :将一张伤害提升 !M! 点的带有 虚无 属性的 *七彩射线 加入手牌。 消耗 。 NL 消耗 。",
-      " 虚无 。 NL 造成 !D! 点伤害。 NL bluearchive_aris:超荷 :将一张伤害提升 !M! 点的带有 虚无 属性的 *七彩射线+ 加入手牌。 消耗 。 NL 消耗 。"
+      " 虚无 。 NL 造成 !D! 点伤害。 NL bluearchive_aris:超荷 :将一张伤害提升 !M! 点的带有 虚无 和 消耗 属性的 *棱镜射线 加入手牌。 NL 消耗 。",
+      " 虚无 。 NL 造成 !D! 点伤害。 NL bluearchive_aris:超荷 :将一张伤害提升 !M! 点的带有 虚无 和 消耗 属性的 *棱镜射线+ 加入手牌。 NL 消耗 。"
     ]
   },
   "BlueArchive_Aris:StraightStrike": {
-    "NAME": "直球打击",
+    "NAME": "直线打击",
     "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 每当触发 bluearchive_aris:转职 效果时，将这张牌从弃牌堆加入手牌。"
   },
   "BlueArchive_Aris:SavePoint": {
@@ -100,7 +100,7 @@
   },
   "BlueArchive_Aris:ThresholdBreak": {
     "NAME": "阈值突破",
-    "DESCRIPTION": "受到 !M! 点伤害。 NL 获得 !M! 层 bluearchive_aris:充能 。 NL 消耗 。"
+    "DESCRIPTION": "受到 !M! 点伤害。 NL 获得 !BlueArchive_Aris:M! 层 bluearchive_aris:充能 。 NL 消耗 。"
   },
   "BlueArchive_Aris:CreatedApotheosis": {
     "NAME": "人造神化",
@@ -119,7 +119,7 @@
     "DESCRIPTION": "造成 !D! 点伤害。 NL 失去当前 bluearchive_aris:职业 并将对应的 bluearchive_aris:装备 牌放回手中。"
   },
   "BlueArchive_Aris:GiantSwingStrike": {
-    "NAME": "豪舞打击",
+    "NAME": "巨摆打击",
     "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 每有一个敌人，获得 !B! 点 格挡 。"
   },
   "BlueArchive_Aris:CloakAndGlassRod": {
@@ -132,7 +132,7 @@
   },
   "BlueArchive_Aris:LevelUp": {
     "NAME": "等级提升",
-    "DESCRIPTION": "bluearchive_aris:职业 效果会额外触发一次。"
+    "DESCRIPTION": " bluearchive_aris:职业 效果会额外触发一次。"
   },
   "BlueArchive_Aris:Mask": {
     "NAME": "战士面具",
@@ -157,11 +157,11 @@
     "DESCRIPTION": "每当消耗 bluearchive_aris:充能 时，本回合获得 !M! 点 力量 。"
   },
   "BlueArchive_Aris:JobMastery": {
-    "NAME": "职业专精",
+    "NAME": "职业精通",
     "DESCRIPTION": "每当触发 bluearchive_aris:转职 效果，获得 !M! 点 格挡 。"
   },
   "BlueArchive_Aris:WeaponMaster": {
-    "NAME": "武器专精",
+    "NAME": "武器精通",
     "DESCRIPTION": "每当 bluearchive_aris:职业 发生变化，抽1张牌。"
   },
   "BlueArchive_Aris:ElixirSyndrome": {
@@ -229,7 +229,7 @@
   },
   "BlueArchive_Aris:PrecisionCamera": {
     "NAME": "高精相机",
-    "DESCRIPTION": "对所有敌人施加 !M! 层 易伤 。 NL bluearchive_aris:超荷 :改为对所有敌人施加 !M! 层 虚弱 。 NL 消耗 。"
+    "DESCRIPTION": "对所有敌人施加 !M! 层 易伤 。 NL bluearchive_aris:超荷 :改为对所有敌人施加 !M! 层 虚弱 。NL 消耗 。"
   },
   "BlueArchive_Aris:SteelBody": {
     "NAME": "钢铁之躯",
@@ -338,7 +338,7 @@
     "UPGRADE_DESCRIPTION": " bluearchive_aris:装备 :法师 NL bluearchive_aris:转职 :从牌组中随机加入一张能力牌。 NL bluearchive_aris:职业 *效果 : 每当你对敌人施加负面效果，获得 !M! 层 bluearchive_aris:能量盾 。"
   },
   "BlueArchive_Aris:Tutorial": {
-    "NAME": "教学局",
+    "NAME": "教程",
     "DESCRIPTION": " bluearchive_aris:产能 。 NL 获得 !B! 点 格挡 X次。 NL 选择一张耗能小于X的手牌，其耗能在本回合变为0。"
   },
   "BlueArchive_Aris:Fishing": {
@@ -430,7 +430,7 @@
       "敌人失去 %1 点 力量 。 ",
       "施加 !M! 层 中毒 。 ",
       "对所有敌人施加 !M! 层 中毒 。 ",
-      "敌人本回合失去 1% 点 力量 。 ",
+      "敌人本回合失去 %1 点 力量 。 ",
       "施加 %1 层 虚弱 。 ",
       "对所有敌人施加 %1 层 虚弱 。 ",
       "施加 %1 层 易伤 。 ",
@@ -452,8 +452,8 @@
       "将一张随机技能牌加入手牌，本回合耗能为0。 ",
       "将一张随机能力牌加入手牌，本回合耗能为0。 ",
       "将一张随机牌加入手牌，本回合耗能为0。 ",
-      "将 %1 张 *小刀 加入手牌。 ",
-      "升级1张手牌。 ",
+      "%1 张 *小刀 加入手牌。 ",
+      "级1张手牌。 ",
       "升级 %1 张手牌。 ",
       "升级所有手牌。 ",
       "将一张手牌的复制品加入手牌。 ",

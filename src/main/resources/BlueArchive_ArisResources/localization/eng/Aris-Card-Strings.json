@@ -100,7 +100,7 @@
   },
   "BlueArchive_Aris:ThresholdBreak": {
     "NAME": "Threshold Break",
-    "DESCRIPTION": "Take !M! damage. NL Gain !M! BlueArchive_Aris:Reactor. NL Exhaust."
+    "DESCRIPTION": "Take !M! damage. NL Gain !BlueArchive_Aris:M! BlueArchive_Aris:Reactor. NL Exhaust."
   },
   "BlueArchive_Aris:CreatedApotheosis": {
     "NAME": "Artificial Apotheosis",
@@ -430,7 +430,7 @@
       "Enemy loses %1 Strength. ",
       "Apply !M! Poison. ",
       "Apply !M! Poison to ALL enemies. ",
-      "Enemy loses 1% Strength for the rest of this turn. ",
+      "Enemy loses %1 Strength for the rest of this turn. ",
       "Apply %1 Weak. ",
       "Apply %1 Weak to ALL enemies. ",
       "Apply %1 Vulnerable. ",

@@ -39,7 +39,7 @@
     "NAME": "TAS",
     "FLAVOR": "\"如果你跳到那里，再蹲下疾跑，这部分就可以逃课了。\"",
     "DESCRIPTIONS": [
-      "拾起时，牌组中的所有 #ybluearchive_aris:任务 牌直接变为 #已升级 的 #ybluearchive_aris:奖励 。"
+      "拾起时，牌组中的所有 #ybluearchive_aris:任务 牌直接变为 #y已升级 的 #ybluearchive_aris:奖励 。"
     ]
   },
   "BlueArchive_Aris:Battery": {
