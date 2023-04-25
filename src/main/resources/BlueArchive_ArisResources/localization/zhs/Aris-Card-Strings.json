@@ -62,7 +62,7 @@
   "BlueArchive_Aris:StaticStrike": {
     "NAME": "战术打击",
     "DESCRIPTION": "造成 !D! 点伤害。 NL 将一张 *冲击！ 加入手牌。",
-    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 将一张 *冲击！+ 加入手牌。"
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 将一张 *冲击！ *+ 加入手牌。"
   },
   "BlueArchive_Aris:ShortCircuit": {
     "NAME": "短路",
