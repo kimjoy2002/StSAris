@@ -16,6 +16,7 @@ import com.megacrit.cardcrawl.helpers.CardLibrary;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.megacrit.cardcrawl.powers.AbstractPower;
 
+import static BlueArchive_Aris.DefaultMod.copyOriginal;
 import static BlueArchive_Aris.DefaultMod.makePowerPath;
 
 
@@ -99,6 +100,15 @@ public class JobIdolPower extends JobPower implements CloneablePowerInterface {
             }
 
             tmp = CardLibrary.getAnyColorCard(cardRarity);
+
+            if(copyOriginal &&
+                    tmp.color != AbstractCard.CardColor.RED &&
+                    tmp.color != AbstractCard.CardColor.BLUE &&
+                    tmp.color != AbstractCard.CardColor.GREEN &&
+                    tmp.color != AbstractCard.CardColor.PURPLE) {
+                continue;
+            }
+
             if(tmp != null && tmp.color != Aris.Enums.COLOR_BLUE
                     && tmp.color != AbstractCard.CardColor.COLORLESS
                     && tmp.color != AbstractCard.CardColor.CURSE)

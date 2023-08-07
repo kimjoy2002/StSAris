@@ -11,6 +11,8 @@ import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndAddToHandEffect;
 
 import java.util.Iterator;
 
+import static BlueArchive_Aris.DefaultMod.copyOriginal;
+
 public class ThoughtStealAction extends AbstractGameAction {
     int amount;
     boolean upgrade;
@@ -40,6 +42,15 @@ public class ThoughtStealAction extends AbstractGameAction {
           tmp.hasTag(AbstractCard.CardTags.HEALING)) {
             return generateCard();
         }
+
+        if(copyOriginal &&
+        tmp.color != AbstractCard.CardColor.RED &&
+        tmp.color != AbstractCard.CardColor.BLUE &&
+        tmp.color != AbstractCard.CardColor.GREEN &&
+        tmp.color != AbstractCard.CardColor.PURPLE) {
+            return generateCard();
+        }
+
         return tmp.makeCopy();
     }
 

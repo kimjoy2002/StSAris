@@ -69,13 +69,25 @@ public class CopyCat extends CustomRelic implements CustomSavable<Integer> {
 
         CardGroup retVal = new CardGroup(CardGroup.CardGroupType.UNSPECIFIED);
         for(AbstractPlayer char_ :CardCrawlGame.characterManager.getAllCharacters()) {
-            if(char_.getCardColor() != Aris.Enums.COLOR_BLUE) {
-                AbstractCard temp = char_.getStartCardForEvent();
-                temp.name = char_.getLocalizedCharacterName();
-                temp.rawDescription = DESCRIPTIONS[3] + char_.getLocalizedCharacterName();
-                temp.initializeDescription();
-                temp.cardsToPreview = null;
-                retVal.addToRandomSpot(temp);
+
+            if(copyOriginal &&
+                    char_.getCardColor() != AbstractCard.CardColor.RED &&
+                    char_.getCardColor() != AbstractCard.CardColor.BLUE &&
+                    char_.getCardColor() != AbstractCard.CardColor.GREEN &&
+                    char_.getCardColor() != AbstractCard.CardColor.PURPLE) {
+                continue;
+            }
+
+            try {
+                if (char_.getCardColor() != Aris.Enums.COLOR_BLUE) {
+                    AbstractCard temp = char_.getStartCardForEvent();
+                    temp.name = char_.getLocalizedCharacterName();
+                    temp.rawDescription = DESCRIPTIONS[3] + char_.getLocalizedCharacterName();
+                    temp.initializeDescription();
+                    temp.cardsToPreview = null;
+                    retVal.addToRandomSpot(temp);
+                }
+            } catch (Throwable ignore) {
             }
 
         }

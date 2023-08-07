@@ -91,8 +91,10 @@ public class DefaultMod implements
     public static Properties arisSettings = new Properties();
     public static final String DISABLE_COMMON_EVENT = "disableCommonEvent";
     public static final String ACTIVE_TUTORIAL = "activeTutorial";
+    public static final String COPY_ORIGINAL = "copyOriginal";
     public static boolean disableCommonEvent = false;
     public static boolean activeTutorial = true;
+    public static boolean copyOriginal = false;
 
     //This is for the in-game mod settings panel.
     private static final String MODNAME = "BlueArchive Aris";
@@ -100,6 +102,7 @@ public class DefaultMod implements
     private static final String DESCRIPTION = "BlueArchive Tendou Aris mod";
     ModLabeledToggleButton disableCommonEventButton = null;
     ModLabeledToggleButton activeTutorialButton = null;
+    ModLabeledToggleButton copyOriginalButton = null;
     
     // =============== INPUT TEXTURE LOCATION =================
     
@@ -228,12 +231,14 @@ public class DefaultMod implements
         logger.info("Adding mod settings");
         arisSettings.setProperty(DISABLE_COMMON_EVENT, "FALSE");
         arisSettings.setProperty(ACTIVE_TUTORIAL, "TRUE");
+        arisSettings.setProperty(COPY_ORIGINAL, "FALSE");
 
         try {
             SpireConfig config = new SpireConfig("BlueArchive_Aris", "BlueArchiveConfig", arisSettings);
             config.load();
             disableCommonEvent = config.getBool(DISABLE_COMMON_EVENT);
             activeTutorial = config.getBool(ACTIVE_TUTORIAL);
+            copyOriginal = config.getBool(COPY_ORIGINAL);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -364,9 +369,26 @@ public class DefaultMod implements
                     }
                 });
 
+        copyOriginalButton = new ModLabeledToggleButton("Aris only copies the original character.",
+                350.0f, 450.0f, Settings.CREAM_COLOR, FontHelper.charDescFont,
+                copyOriginal,
+                settingsPanel,
+                (label) -> {},
+                (button) -> {
+                    copyOriginal = button.enabled;
+                    try {
+                        SpireConfig config = new SpireConfig("BlueArchive_Aris", "BlueArchiveConfig", arisSettings);
+                        config.setBool(COPY_ORIGINAL, copyOriginal);
+                        config.save();
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                    }
+                });
+
 
         settingsPanel.addUIElement(disableCommonEventButton);
         settingsPanel.addUIElement(activeTutorialButton);
+        settingsPanel.addUIElement(copyOriginalButton);
         
         BaseMod.registerModBadge(badgeTexture, MODNAME, AUTHOR, DESCRIPTION, settingsPanel);
 
